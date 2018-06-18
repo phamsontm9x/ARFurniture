@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1732BBBD17DFA0EF69EA40 /* Pods_ARFurnitureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2647CD977962E4CE64FFB0 /* Pods_ARFurnitureUITests.framework */; };
+		A3A7B33E8AE15E7CF73767F7 /* Pods_ARFurniture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA3CDD126CEBB91807EDF46 /* Pods_ARFurniture.framework */; };
+		CA12D97B20D6A77000091F5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D95520D6A77000091F5A /* AppDelegate.m */; };
+		CA12D97C20D6A77000091F5A /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D95920D6A77000091F5A /* BaseVC.m */; };
+		CA12D97D20D6A77000091F5A /* ExpertsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D95E20D6A77000091F5A /* ExpertsController.m */; };
+		CA12D97E20D6A77000091F5A /* InspirationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D96120D6A77000091F5A /* InspirationController.m */; };
+		CA12D97F20D6A77000091F5A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D96520D6A77000091F5A /* MainController.m */; };
+		CA12D98020D6A77000091F5A /* ProductsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D96820D6A77000091F5A /* ProductsController.m */; };
+		CA12D98120D6A77000091F5A /* YALSunnyRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D96E20D6A77000091F5A /* YALSunnyRefreshControl.m */; };
+		CA12D98220D6A77000091F5A /* YALSunnyRefreshControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA12D96F20D6A77000091F5A /* YALSunnyRefreshControl.xib */; };
+		CA12D98320D6A77000091F5A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97020D6A77000091F5A /* Info.plist */; };
+		CA12D98420D6A77000091F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D97120D6A77000091F5A /* main.m */; };
+		CA12D98520D6A77000091F5A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97420D6A77000091F5A /* art.scnassets */; };
+		CA12D98620D6A77000091F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97520D6A77000091F5A /* Assets.xcassets */; };
+		CA12D98720D6A77000091F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97720D6A77000091F5A /* LaunchScreen.storyboard */; };
+		CA12D98820D6A77000091F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97920D6A77000091F5A /* Main.storyboard */; };
+		CA12EDBC20D52D0E008939DF /* ARFurnitureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12EDBB20D52D0E008939DF /* ARFurnitureTests.m */; };
+		CA12EDC720D52D0E008939DF /* ARFurnitureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12EDC620D52D0E008939DF /* ARFurnitureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA12EDB820D52D0E008939DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA12ED9520D52D0E008939DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA12ED9C20D52D0E008939DF;
+			remoteInfo = ARFurniture;
+		};
+		CA12EDC320D52D0E008939DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA12ED9520D52D0E008939DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA12ED9C20D52D0E008939DF;
+			remoteInfo = ARFurniture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21BDA3B28157F8A89BA4C51A /* Pods-ARFurnitureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFurnitureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARFurnitureUITests/Pods-ARFurnitureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2647CD977962E4CE64FFB0 /* Pods_ARFurnitureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFurnitureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA3CDD126CEBB91807EDF46 /* Pods_ARFurniture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARFurniture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86251809F3CB855E5E89DD32 /* Pods-ARFurniture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFurniture.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARFurniture/Pods-ARFurniture.release.xcconfig"; sourceTree = "<group>"; };
+		88AA19E577C776CEBC080CF3 /* Pods-ARFurniture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFurniture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARFurniture/Pods-ARFurniture.debug.xcconfig"; sourceTree = "<group>"; };
+		C13144CFE5F8193B1CB76601 /* Pods-ARFurnitureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARFurnitureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARFurnitureUITests/Pods-ARFurnitureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA12D95420D6A77000091F5A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA12D95520D6A77000091F5A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA12D95820D6A77000091F5A /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		CA12D95920D6A77000091F5A /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		CA12D95D20D6A77000091F5A /* ExpertsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpertsController.h; sourceTree = "<group>"; };
+		CA12D95E20D6A77000091F5A /* ExpertsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpertsController.m; sourceTree = "<group>"; };
+		CA12D96020D6A77000091F5A /* InspirationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspirationController.h; sourceTree = "<group>"; };
+		CA12D96120D6A77000091F5A /* InspirationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspirationController.m; sourceTree = "<group>"; };
+		CA12D96420D6A77000091F5A /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		CA12D96520D6A77000091F5A /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		CA12D96720D6A77000091F5A /* ProductsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsController.h; sourceTree = "<group>"; };
+		CA12D96820D6A77000091F5A /* ProductsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsController.m; sourceTree = "<group>"; };
+		CA12D96D20D6A77000091F5A /* YALSunnyRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALSunnyRefreshControl.h; sourceTree = "<group>"; };
+		CA12D96E20D6A77000091F5A /* YALSunnyRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALSunnyRefreshControl.m; sourceTree = "<group>"; };
+		CA12D96F20D6A77000091F5A /* YALSunnyRefreshControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YALSunnyRefreshControl.xib; sourceTree = "<group>"; };
+		CA12D97020D6A77000091F5A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA12D97120D6A77000091F5A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA12D97420D6A77000091F5A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CA12D97520D6A77000091F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA12D97820D6A77000091F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA12D97A20D6A77000091F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA12ED9D20D52D0E008939DF /* ARFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA12EDB720D52D0E008939DF /* ARFurnitureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFurnitureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA12EDBB20D52D0E008939DF /* ARFurnitureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFurnitureTests.m; sourceTree = "<group>"; };
+		CA12EDBD20D52D0E008939DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA12EDC220D52D0E008939DF /* ARFurnitureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFurnitureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA12EDC620D52D0E008939DF /* ARFurnitureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFurnitureUITests.m; sourceTree = "<group>"; };
+		CA12EDC820D52D0E008939DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA12ED9A20D52D0E008939DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A7B33E8AE15E7CF73767F7 /* Pods_ARFurniture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDB420D52D0E008939DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDBF20D52D0E008939DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1732BBBD17DFA0EF69EA40 /* Pods_ARFurnitureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D08AA862830BD39FBE51523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA3CDD126CEBB91807EDF46 /* Pods_ARFurniture.framework */,
+				2F2647CD977962E4CE64FFB0 /* Pods_ARFurnitureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA12D95120D6A77000091F5A /* ARFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95220D6A77000091F5A /* Classes */,
+				CA12D97020D6A77000091F5A /* Info.plist */,
+				CA12D97120D6A77000091F5A /* main.m */,
+				CA12D97220D6A77000091F5A /* Resources */,
+			);
+			path = ARFurniture;
+			sourceTree = "<group>";
+		};
+		CA12D95220D6A77000091F5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95320D6A77000091F5A /* AppDelegate */,
+				CA12D95620D6A77000091F5A /* BaseDto */,
+				CA12D95A20D6A77000091F5A /* Category */,
+				CA12D95B20D6A77000091F5A /* Controllers */,
+				CA12D96920D6A77000091F5A /* Manager */,
+				CA12D96A20D6A77000091F5A /* Models */,
+				CA12D96B20D6A77000091F5A /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CA12D95320D6A77000091F5A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95420D6A77000091F5A /* AppDelegate.h */,
+				CA12D95520D6A77000091F5A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CA12D95620D6A77000091F5A /* BaseDto */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95720D6A77000091F5A /* BaseVC */,
+			);
+			path = BaseDto;
+			sourceTree = "<group>";
+		};
+		CA12D95720D6A77000091F5A /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95820D6A77000091F5A /* BaseVC.h */,
+				CA12D95920D6A77000091F5A /* BaseVC.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		CA12D95A20D6A77000091F5A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CA12D95B20D6A77000091F5A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95C20D6A77000091F5A /* ExpertsController */,
+				CA12D95F20D6A77000091F5A /* InspirationController */,
+				CA12D96620D6A77000091F5A /* ProductsController */,
+				CA12D96220D6A77000091F5A /* Login */,
+				CA12D96320D6A77000091F5A /* MainController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA12D95C20D6A77000091F5A /* ExpertsController */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D95D20D6A77000091F5A /* ExpertsController.h */,
+				CA12D95E20D6A77000091F5A /* ExpertsController.m */,
+			);
+			path = ExpertsController;
+			sourceTree = "<group>";
+		};
+		CA12D95F20D6A77000091F5A /* InspirationController */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D96020D6A77000091F5A /* InspirationController.h */,
+				CA12D96120D6A77000091F5A /* InspirationController.m */,
+			);
+			path = InspirationController;
+			sourceTree = "<group>";
+		};
+		CA12D96220D6A77000091F5A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CA12D96320D6A77000091F5A /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D96420D6A77000091F5A /* MainController.h */,
+				CA12D96520D6A77000091F5A /* MainController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		CA12D96620D6A77000091F5A /* ProductsController */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D96720D6A77000091F5A /* ProductsController.h */,
+				CA12D96820D6A77000091F5A /* ProductsController.m */,
+			);
+			path = ProductsController;
+			sourceTree = "<group>";
+		};
+		CA12D96920D6A77000091F5A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CA12D96A20D6A77000091F5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA12D96B20D6A77000091F5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D96C20D6A77000091F5A /* YALSunnyRefreshControll */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA12D96C20D6A77000091F5A /* YALSunnyRefreshControll */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D96D20D6A77000091F5A /* YALSunnyRefreshControl.h */,
+				CA12D96E20D6A77000091F5A /* YALSunnyRefreshControl.m */,
+				CA12D96F20D6A77000091F5A /* YALSunnyRefreshControl.xib */,
+			);
+			path = YALSunnyRefreshControll;
+			sourceTree = "<group>";
+		};
+		CA12D97220D6A77000091F5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D97320D6A77000091F5A /* Images */,
+				CA12D97620D6A77000091F5A /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA12D97320D6A77000091F5A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D97420D6A77000091F5A /* art.scnassets */,
+				CA12D97520D6A77000091F5A /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CA12D97620D6A77000091F5A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CA12D97720D6A77000091F5A /* LaunchScreen.storyboard */,
+				CA12D97920D6A77000091F5A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CA12ED9420D52D0E008939DF = {
+			isa = PBXGroup;
+			children = (
+				CA12D95120D6A77000091F5A /* ARFurniture */,
+				CA12EDBA20D52D0E008939DF /* ARFurnitureTests */,
+				CA12EDC520D52D0E008939DF /* ARFurnitureUITests */,
+				CA12ED9E20D52D0E008939DF /* Products */,
+				E72093DF000FAFC7659A2E1B /* Pods */,
+				3D08AA862830BD39FBE51523 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA12ED9E20D52D0E008939DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA12ED9D20D52D0E008939DF /* ARFurniture.app */,
+				CA12EDB720D52D0E008939DF /* ARFurnitureTests.xctest */,
+				CA12EDC220D52D0E008939DF /* ARFurnitureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA12EDBA20D52D0E008939DF /* ARFurnitureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA12EDBB20D52D0E008939DF /* ARFurnitureTests.m */,
+				CA12EDBD20D52D0E008939DF /* Info.plist */,
+			);
+			path = ARFurnitureTests;
+			sourceTree = "<group>";
+		};
+		CA12EDC520D52D0E008939DF /* ARFurnitureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA12EDC620D52D0E008939DF /* ARFurnitureUITests.m */,
+				CA12EDC820D52D0E008939DF /* Info.plist */,
+			);
+			path = ARFurnitureUITests;
+			sourceTree = "<group>";
+		};
+		E72093DF000FAFC7659A2E1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88AA19E577C776CEBC080CF3 /* Pods-ARFurniture.debug.xcconfig */,
+				86251809F3CB855E5E89DD32 /* Pods-ARFurniture.release.xcconfig */,
+				21BDA3B28157F8A89BA4C51A /* Pods-ARFurnitureUITests.debug.xcconfig */,
+				C13144CFE5F8193B1CB76601 /* Pods-ARFurnitureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA12ED9C20D52D0E008939DF /* ARFurniture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA12EDCB20D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurniture" */;
+			buildPhases = (
+				C02DB65C8E38D26CA56F546D /* [CP] Check Pods Manifest.lock */,
+				CA12ED9920D52D0E008939DF /* Sources */,
+				CA12ED9A20D52D0E008939DF /* Frameworks */,
+				CA12ED9B20D52D0E008939DF /* Resources */,
+				6388BEA599F1774C95E63F4C /* [CP] Embed Pods Frameworks */,
+				62EFA2ACAB23B89B65CED1A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARFurniture;
+			productName = ARFurniture;
+			productReference = CA12ED9D20D52D0E008939DF /* ARFurniture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA12EDB620D52D0E008939DF /* ARFurnitureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA12EDCE20D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurnitureTests" */;
+			buildPhases = (
+				CA12EDB320D52D0E008939DF /* Sources */,
+				CA12EDB420D52D0E008939DF /* Frameworks */,
+				CA12EDB520D52D0E008939DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA12EDB920D52D0E008939DF /* PBXTargetDependency */,
+			);
+			name = ARFurnitureTests;
+			productName = ARFurnitureTests;
+			productReference = CA12EDB720D52D0E008939DF /* ARFurnitureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA12EDC120D52D0E008939DF /* ARFurnitureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA12EDD120D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurnitureUITests" */;
+			buildPhases = (
+				C84CBC1AADA59C4202B013A4 /* [CP] Check Pods Manifest.lock */,
+				CA12EDBE20D52D0E008939DF /* Sources */,
+				CA12EDBF20D52D0E008939DF /* Frameworks */,
+				CA12EDC020D52D0E008939DF /* Resources */,
+				7292DA47CB1128DA1687DB94 /* [CP] Embed Pods Frameworks */,
+				F7D2F652E0118C8EF917716A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA12EDC420D52D0E008939DF /* PBXTargetDependency */,
+			);
+			name = ARFurnitureUITests;
+			productName = ARFurnitureUITests;
+			productReference = CA12EDC220D52D0E008939DF /* ARFurnitureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA12ED9520D52D0E008939DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ThanhSon;
+				TargetAttributes = {
+					CA12ED9C20D52D0E008939DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CA12EDB620D52D0E008939DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA12ED9C20D52D0E008939DF;
+					};
+					CA12EDC120D52D0E008939DF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA12ED9C20D52D0E008939DF;
+					};
+				};
+			};
+			buildConfigurationList = CA12ED9820D52D0E008939DF /* Build configuration list for PBXProject "ARFurniture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA12ED9420D52D0E008939DF;
+			productRefGroup = CA12ED9E20D52D0E008939DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA12ED9C20D52D0E008939DF /* ARFurniture */,
+				CA12EDB620D52D0E008939DF /* ARFurnitureTests */,
+				CA12EDC120D52D0E008939DF /* ARFurnitureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA12ED9B20D52D0E008939DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA12D98320D6A77000091F5A /* Info.plist in Resources */,
+				CA12D98520D6A77000091F5A /* art.scnassets in Resources */,
+				CA12D98620D6A77000091F5A /* Assets.xcassets in Resources */,
+				CA12D98820D6A77000091F5A /* Main.storyboard in Resources */,
+				CA12D98720D6A77000091F5A /* LaunchScreen.storyboard in Resources */,
+				CA12D98220D6A77000091F5A /* YALSunnyRefreshControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDB520D52D0E008939DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDC020D52D0E008939DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62EFA2ACAB23B89B65CED1A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFurniture/Pods-ARFurniture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6388BEA599F1774C95E63F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARFurniture/Pods-ARFurniture-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFurniture/Pods-ARFurniture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7292DA47CB1128DA1687DB94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFurnitureUITests/Pods-ARFurnitureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02DB65C8E38D26CA56F546D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFurniture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84CBC1AADA59C4202B013A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARFurnitureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D2F652E0118C8EF917716A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARFurnitureUITests/Pods-ARFurnitureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA12ED9920D52D0E008939DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA12D97B20D6A77000091F5A /* AppDelegate.m in Sources */,
+				CA12D97C20D6A77000091F5A /* BaseVC.m in Sources */,
+				CA12D97E20D6A77000091F5A /* InspirationController.m in Sources */,
+				CA12D98120D6A77000091F5A /* YALSunnyRefreshControl.m in Sources */,
+				CA12D97F20D6A77000091F5A /* MainController.m in Sources */,
+				CA12D97D20D6A77000091F5A /* ExpertsController.m in Sources */,
+				CA12D98420D6A77000091F5A /* main.m in Sources */,
+				CA12D98020D6A77000091F5A /* ProductsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDB320D52D0E008939DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA12EDBC20D52D0E008939DF /* ARFurnitureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA12EDBE20D52D0E008939DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA12EDC720D52D0E008939DF /* ARFurnitureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA12EDB920D52D0E008939DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA12ED9C20D52D0E008939DF /* ARFurniture */;
+			targetProxy = CA12EDB820D52D0E008939DF /* PBXContainerItemProxy */;
+		};
+		CA12EDC420D52D0E008939DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA12ED9C20D52D0E008939DF /* ARFurniture */;
+			targetProxy = CA12EDC320D52D0E008939DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA12D97720D6A77000091F5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA12D97820D6A77000091F5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA12D97920D6A77000091F5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA12D97A20D6A77000091F5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA12EDC920D52D0E008939DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA12EDCA20D52D0E008939DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA12EDCC20D52D0E008939DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AA19E577C776CEBC080CF3 /* Pods-ARFurniture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurniture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA12EDCD20D52D0E008939DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86251809F3CB855E5E89DD32 /* Pods-ARFurniture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurniture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA12EDCF20D52D0E008939DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurnitureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurnitureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFurniture.app/ARFurniture";
+			};
+			name = Debug;
+		};
+		CA12EDD020D52D0E008939DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurnitureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurnitureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARFurniture.app/ARFurniture";
+			};
+			name = Release;
+		};
+		CA12EDD220D52D0E008939DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BDA3B28157F8A89BA4C51A /* Pods-ARFurnitureUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurnitureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurnitureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFurniture;
+			};
+			name = Debug;
+		};
+		CA12EDD320D52D0E008939DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13144CFE5F8193B1CB76601 /* Pods-ARFurnitureUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52BEENW56Y;
+				INFOPLIST_FILE = ARFurnitureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurnitureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARFurniture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA12ED9820D52D0E008939DF /* Build configuration list for PBXProject "ARFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA12EDC920D52D0E008939DF /* Debug */,
+				CA12EDCA20D52D0E008939DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA12EDCB20D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA12EDCC20D52D0E008939DF /* Debug */,
+				CA12EDCD20D52D0E008939DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA12EDCE20D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurnitureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA12EDCF20D52D0E008939DF /* Debug */,
+				CA12EDD020D52D0E008939DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA12EDD120D52D0E008939DF /* Build configuration list for PBXNativeTarget "ARFurnitureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA12EDD220D52D0E008939DF /* Debug */,
+				CA12EDD320D52D0E008939DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA12ED9520D52D0E008939DF /* Project object */;
+}
