@@ -1,18 +1,18 @@
 //
-//  BaseVC.m
+//  LoginController.m
 //  ARFurniture
 //
-//  Created by ThanhSon on 6/17/18.
+//  Created by ThanhSon on 6/19/18.
 //  Copyright © 2018 ThanhSon. All rights reserved.
 //
 
-#import "BaseVC.h"
+#import "LoginController.h"
 
-@interface BaseVC ()
+@interface LoginController ()
 
 @end
 
-@implementation BaseVC
+@implementation LoginController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "define.h"
+#import "MenuVC.h"
+#import "MainController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+
+    MenuVC *leftMenu = VCFromSB(MenuVC, SB_Main);
+    
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    [SlideNavigationController sharedInstance].menuRevealAnimationDuration = 0.3;
+    [SlideNavigationController sharedInstance].portraitSlideOffset = 100;
+    [SlideNavigationController sharedInstance].enableShadow = NO;
+    
+    MainController *vc = VCFromSB(MainController, SB_Main);
+    [AppNav popToRootAndSwitchToViewController:vc withSlideOutAnimation:NO
+                                 andCompletion:nil];
+ 
+    
     return YES;
 }
 

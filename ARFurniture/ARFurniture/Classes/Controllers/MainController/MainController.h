@@ -7,6 +7,7 @@
 //
 
 #import "BaseVC.h"
+#import "CAPSPageMenu.h"
 
 @interface MainController : BaseVC
 

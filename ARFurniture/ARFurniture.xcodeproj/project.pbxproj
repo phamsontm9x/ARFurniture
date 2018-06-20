@@ -25,6 +25,28 @@
 		CA12D98820D6A77000091F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97920D6A77000091F5A /* Main.storyboard */; };
 		CA12EDBC20D52D0E008939DF /* ARFurnitureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12EDBB20D52D0E008939DF /* ARFurnitureTests.m */; };
 		CA12EDC720D52D0E008939DF /* ARFurnitureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12EDC620D52D0E008939DF /* ARFurnitureUITests.m */; };
+		CA763B1720D96832007BBC24 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA763B1620D96832007BBC24 /* LoginController.m */; };
+		CA763BE520D96B60007BBC24 /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CA763BE320D96B5F007BBC24 /* CAPSPageMenu.m */; };
+		CA763BEC20D97098007BBC24 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA763BEB20D97098007BBC24 /* NavVC.m */; };
+		CA98F33020DAB27D00ECF795 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F32F20DAB27D00ECF795 /* SlideNavigationController.m */; };
+		CA98F33D20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33420DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m */; };
+		CA98F33E20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33620DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m */; };
+		CA98F33F20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33820DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		CA98F34020DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33A20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		CA98F34120DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33C20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		CA98F34520DAB2CB00ECF795 /* MenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F34420DAB2CB00ECF795 /* MenuVC.m */; };
+		CA98F34C20DAB2FA00ECF795 /* BaseTBV.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F34820DAB2FA00ECF795 /* BaseTBV.m */; };
+		CA98F34D20DAB2FA00ECF795 /* BaseClv.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F34B20DAB2FA00ECF795 /* BaseClv.m */; };
+		CA98F35120DAB30D00ECF795 /* BaseColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F35020DAB30D00ECF795 /* BaseColCell.m */; };
+		CA98F35520DAB31700ECF795 /* BaseDto.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F35420DAB31700ECF795 /* BaseDto.m */; };
+		CA98F35920DAB31E00ECF795 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F35820DAB31E00ECF795 /* BaseCell.m */; };
+		CA98F37F20DAB39700ECF795 /* UIButton+Button.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F35E20DAB39700ECF795 /* UIButton+Button.m */; };
+		CA98F38020DAB39700ECF795 /* HButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F36120DAB39700ECF795 /* HButton.m */; };
+		CA98F38120DAB39700ECF795 /* NSDateFormatter+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37220DAB39700ECF795 /* NSDateFormatter+Util.m */; };
+		CA98F38220DAB39700ECF795 /* NSDate+NSDateEx.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37520DAB39700ECF795 /* NSDate+NSDateEx.m */; };
+		CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37820DAB39700ECF795 /* NSTimeZone+Util.m */; };
+		CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37B20DAB39700ECF795 /* NSString+Util.m */; };
+		CA98F38520DAB39700ECF795 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37E20DAB39700ECF795 /* UIView+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +101,52 @@
 		CA12EDC220D52D0E008939DF /* ARFurnitureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFurnitureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA12EDC620D52D0E008939DF /* ARFurnitureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFurnitureUITests.m; sourceTree = "<group>"; };
 		CA12EDC820D52D0E008939DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA763B1520D96832007BBC24 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		CA763B1620D96832007BBC24 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		CA763BE320D96B5F007BBC24 /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		CA763BE420D96B60007BBC24 /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
+		CA763BEA20D97098007BBC24 /* NavVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavVC.h; sourceTree = "<group>"; };
+		CA763BEB20D97098007BBC24 /* NavVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavVC.m; sourceTree = "<group>"; };
+		CA98F32E20DAB27D00ECF795 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		CA98F32F20DAB27D00ECF795 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		CA98F33220DAB2C000ECF795 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		CA98F33320DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		CA98F33420DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		CA98F33520DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		CA98F33620DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		CA98F33720DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		CA98F33820DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		CA98F33920DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		CA98F33A20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		CA98F33B20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		CA98F33C20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		CA98F34320DAB2CB00ECF795 /* MenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuVC.h; sourceTree = "<group>"; };
+		CA98F34420DAB2CB00ECF795 /* MenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuVC.m; sourceTree = "<group>"; };
+		CA98F34720DAB2FA00ECF795 /* BaseTBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTBV.h; sourceTree = "<group>"; };
+		CA98F34820DAB2FA00ECF795 /* BaseTBV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTBV.m; sourceTree = "<group>"; };
+		CA98F34A20DAB2FA00ECF795 /* BaseClv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClv.h; sourceTree = "<group>"; };
+		CA98F34B20DAB2FA00ECF795 /* BaseClv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClv.m; sourceTree = "<group>"; };
+		CA98F34F20DAB30D00ECF795 /* BaseColCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseColCell.h; sourceTree = "<group>"; };
+		CA98F35020DAB30D00ECF795 /* BaseColCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseColCell.m; sourceTree = "<group>"; };
+		CA98F35320DAB31700ECF795 /* BaseDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDto.h; sourceTree = "<group>"; };
+		CA98F35420DAB31700ECF795 /* BaseDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDto.m; sourceTree = "<group>"; };
+		CA98F35720DAB31E00ECF795 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		CA98F35820DAB31E00ECF795 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		CA98F35A20DAB33200ECF795 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		CA98F35D20DAB39700ECF795 /* UIButton+Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Button.h"; sourceTree = "<group>"; };
+		CA98F35E20DAB39700ECF795 /* UIButton+Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Button.m"; sourceTree = "<group>"; };
+		CA98F36020DAB39700ECF795 /* HButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HButton.h; sourceTree = "<group>"; };
+		CA98F36120DAB39700ECF795 /* HButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HButton.m; sourceTree = "<group>"; };
+		CA98F37120DAB39700ECF795 /* NSDateFormatter+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Util.h"; sourceTree = "<group>"; };
+		CA98F37220DAB39700ECF795 /* NSDateFormatter+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Util.m"; sourceTree = "<group>"; };
+		CA98F37420DAB39700ECF795 /* NSDate+NSDateEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDateEx.h"; sourceTree = "<group>"; };
+		CA98F37520DAB39700ECF795 /* NSDate+NSDateEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDateEx.m"; sourceTree = "<group>"; };
+		CA98F37720DAB39700ECF795 /* NSTimeZone+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimeZone+Util.h"; sourceTree = "<group>"; };
+		CA98F37820DAB39700ECF795 /* NSTimeZone+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimeZone+Util.m"; sourceTree = "<group>"; };
+		CA98F37A20DAB39700ECF795 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		CA98F37B20DAB39700ECF795 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		CA98F37D20DAB39700ECF795 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		CA98F37E20DAB39700ECF795 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +199,11 @@
 		CA12D95220D6A77000091F5A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CA98F35A20DAB33200ECF795 /* define.h */,
 				CA12D95320D6A77000091F5A /* AppDelegate */,
-				CA12D95620D6A77000091F5A /* BaseDto */,
-				CA12D95A20D6A77000091F5A /* Category */,
+				CA98F35B20DAB39700ECF795 /* New Group */,
+				CA12D95620D6A77000091F5A /* Base */,
 				CA12D95B20D6A77000091F5A /* Controllers */,
-				CA12D96920D6A77000091F5A /* Manager */,
-				CA12D96A20D6A77000091F5A /* Models */,
 				CA12D96B20D6A77000091F5A /* View */,
 			);
 			path = Classes;
@@ -151,12 +218,19 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		CA12D95620D6A77000091F5A /* BaseDto */ = {
+		CA12D95620D6A77000091F5A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CA98F35620DAB31E00ECF795 /* BaseCell */,
+				CA98F35220DAB31700ECF795 /* BaseDto */,
+				CA98F34E20DAB30D00ECF795 /* BaseColCell */,
+				CA98F34920DAB2FA00ECF795 /* BaseClv */,
+				CA98F34620DAB2FA00ECF795 /* BaseTbv */,
+				CA98F32D20DAB27D00ECF795 /* SlideNavigationController */,
+				CA763BE620D97059007BBC24 /* NavVC */,
 				CA12D95720D6A77000091F5A /* BaseVC */,
 			);
-			path = BaseDto;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		CA12D95720D6A77000091F5A /* BaseVC */ = {
@@ -168,20 +242,15 @@
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
-		CA12D95A20D6A77000091F5A /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		CA12D95B20D6A77000091F5A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CA98F34220DAB2CB00ECF795 /* MenuVC */,
+				CA763BE220D96B55007BBC24 /* BaseMenu */,
+				CA763B1420D967AD007BBC24 /* Login */,
 				CA12D95C20D6A77000091F5A /* ExpertsController */,
 				CA12D95F20D6A77000091F5A /* InspirationController */,
 				CA12D96620D6A77000091F5A /* ProductsController */,
-				CA12D96220D6A77000091F5A /* Login */,
 				CA12D96320D6A77000091F5A /* MainController */,
 			);
 			path = Controllers;
@@ -205,13 +274,6 @@
 			path = InspirationController;
 			sourceTree = "<group>";
 		};
-		CA12D96220D6A77000091F5A /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		CA12D96320D6A77000091F5A /* MainController */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,20 +290,6 @@
 				CA12D96820D6A77000091F5A /* ProductsController.m */,
 			);
 			path = ProductsController;
-			sourceTree = "<group>";
-		};
-		CA12D96920D6A77000091F5A /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		CA12D96A20D6A77000091F5A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		CA12D96B20D6A77000091F5A /* View */ = {
@@ -327,6 +375,306 @@
 				CA12EDC820D52D0E008939DF /* Info.plist */,
 			);
 			path = ARFurnitureUITests;
+			sourceTree = "<group>";
+		};
+		CA763B1420D967AD007BBC24 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA763B1520D96832007BBC24 /* LoginController.h */,
+				CA763B1620D96832007BBC24 /* LoginController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CA763BE220D96B55007BBC24 /* BaseMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CA763BE420D96B60007BBC24 /* CAPSPageMenu.h */,
+				CA763BE320D96B5F007BBC24 /* CAPSPageMenu.m */,
+			);
+			path = BaseMenu;
+			sourceTree = "<group>";
+		};
+		CA763BE620D97059007BBC24 /* NavVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA763BEA20D97098007BBC24 /* NavVC.h */,
+				CA763BEB20D97098007BBC24 /* NavVC.m */,
+			);
+			path = NavVC;
+			sourceTree = "<group>";
+		};
+		CA98F32D20DAB27D00ECF795 /* SlideNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F33120DAB2C000ECF795 /* AnimationsSlideNav */,
+				CA98F32E20DAB27D00ECF795 /* SlideNavigationController.h */,
+				CA98F32F20DAB27D00ECF795 /* SlideNavigationController.m */,
+			);
+			name = SlideNavigationController;
+			path = ../../../../../Financial_Manager_iOS/FinacialManager_iOS/FinacialManager_iOS/Classes/View/SlideNavigationController;
+			sourceTree = "<group>";
+		};
+		CA98F33120DAB2C000ECF795 /* AnimationsSlideNav */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F33220DAB2C000ECF795 /* SlideNavigationContorllerAnimator.h */,
+				CA98F33320DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.h */,
+				CA98F33420DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m */,
+				CA98F33520DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.h */,
+				CA98F33620DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m */,
+				CA98F33720DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				CA98F33820DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				CA98F33920DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.h */,
+				CA98F33A20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m */,
+				CA98F33B20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				CA98F33C20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = AnimationsSlideNav;
+			sourceTree = "<group>";
+		};
+		CA98F34220DAB2CB00ECF795 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F34320DAB2CB00ECF795 /* MenuVC.h */,
+				CA98F34420DAB2CB00ECF795 /* MenuVC.m */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		CA98F34620DAB2FA00ECF795 /* BaseTbv */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F34720DAB2FA00ECF795 /* BaseTBV.h */,
+				CA98F34820DAB2FA00ECF795 /* BaseTBV.m */,
+			);
+			path = BaseTbv;
+			sourceTree = "<group>";
+		};
+		CA98F34920DAB2FA00ECF795 /* BaseClv */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F34A20DAB2FA00ECF795 /* BaseClv.h */,
+				CA98F34B20DAB2FA00ECF795 /* BaseClv.m */,
+			);
+			path = BaseClv;
+			sourceTree = "<group>";
+		};
+		CA98F34E20DAB30D00ECF795 /* BaseColCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F34F20DAB30D00ECF795 /* BaseColCell.h */,
+				CA98F35020DAB30D00ECF795 /* BaseColCell.m */,
+			);
+			path = BaseColCell;
+			sourceTree = "<group>";
+		};
+		CA98F35220DAB31700ECF795 /* BaseDto */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F35320DAB31700ECF795 /* BaseDto.h */,
+				CA98F35420DAB31700ECF795 /* BaseDto.m */,
+			);
+			path = BaseDto;
+			sourceTree = "<group>";
+		};
+		CA98F35620DAB31E00ECF795 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F35720DAB31E00ECF795 /* BaseCell.h */,
+				CA98F35820DAB31E00ECF795 /* BaseCell.m */,
+			);
+			name = BaseCell;
+			path = ../../../../../Financial_Manager_iOS/FinacialManager_iOS/FinacialManager_iOS/Classes/Base/BaseCell;
+			sourceTree = "<group>";
+		};
+		CA98F35B20DAB39700ECF795 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F35C20DAB39700ECF795 /* Button */,
+				CA98F35F20DAB39700ECF795 /* HButton */,
+				CA98F36220DAB39700ECF795 /* NSDate */,
+				CA98F37920DAB39700ECF795 /* NSString */,
+				CA98F37C20DAB39700ECF795 /* View */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CA98F35C20DAB39700ECF795 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F35D20DAB39700ECF795 /* UIButton+Button.h */,
+				CA98F35E20DAB39700ECF795 /* UIButton+Button.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		CA98F35F20DAB39700ECF795 /* HButton */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F36020DAB39700ECF795 /* HButton.h */,
+				CA98F36120DAB39700ECF795 /* HButton.m */,
+			);
+			path = HButton;
+			sourceTree = "<group>";
+		};
+		CA98F36220DAB39700ECF795 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F36320DAB39700ECF795 /* Category */,
+				CA98F37020DAB39700ECF795 /* DateFormatter */,
+				CA98F37320DAB39700ECF795 /* NSDateEx */,
+				CA98F37620DAB39700ECF795 /* TimeZone */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		CA98F36320DAB39700ECF795 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F36420DAB39700ECF795 /* Alert */,
+				CA98F36520DAB39700ECF795 /* Date */,
+				CA98F36620DAB39700ECF795 /* DateFormatter */,
+				CA98F36720DAB39700ECF795 /* HDate */,
+				CA98F36820DAB39700ECF795 /* HLabel */,
+				CA98F36920DAB39700ECF795 /* NavigationController */,
+				CA98F36A20DAB39700ECF795 /* NSString */,
+				CA98F36B20DAB39700ECF795 /* TimeZone */,
+				CA98F36C20DAB39700ECF795 /* UIImage */,
+				CA98F36D20DAB39700ECF795 /* UIScrollView */,
+				CA98F36E20DAB39700ECF795 /* ULTextView */,
+				CA98F36F20DAB39700ECF795 /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CA98F36420DAB39700ECF795 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CA98F36520DAB39700ECF795 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		CA98F36620DAB39700ECF795 /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		CA98F36720DAB39700ECF795 /* HDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HDate;
+			sourceTree = "<group>";
+		};
+		CA98F36820DAB39700ECF795 /* HLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HLabel;
+			sourceTree = "<group>";
+		};
+		CA98F36920DAB39700ECF795 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		CA98F36A20DAB39700ECF795 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		CA98F36B20DAB39700ECF795 /* TimeZone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TimeZone;
+			sourceTree = "<group>";
+		};
+		CA98F36C20DAB39700ECF795 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		CA98F36D20DAB39700ECF795 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		CA98F36E20DAB39700ECF795 /* ULTextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ULTextView;
+			sourceTree = "<group>";
+		};
+		CA98F36F20DAB39700ECF795 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA98F37020DAB39700ECF795 /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F37120DAB39700ECF795 /* NSDateFormatter+Util.h */,
+				CA98F37220DAB39700ECF795 /* NSDateFormatter+Util.m */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		CA98F37320DAB39700ECF795 /* NSDateEx */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F37420DAB39700ECF795 /* NSDate+NSDateEx.h */,
+				CA98F37520DAB39700ECF795 /* NSDate+NSDateEx.m */,
+			);
+			path = NSDateEx;
+			sourceTree = "<group>";
+		};
+		CA98F37620DAB39700ECF795 /* TimeZone */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F37720DAB39700ECF795 /* NSTimeZone+Util.h */,
+				CA98F37820DAB39700ECF795 /* NSTimeZone+Util.m */,
+			);
+			path = TimeZone;
+			sourceTree = "<group>";
+		};
+		CA98F37920DAB39700ECF795 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F37A20DAB39700ECF795 /* NSString+Util.h */,
+				CA98F37B20DAB39700ECF795 /* NSString+Util.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		CA98F37C20DAB39700ECF795 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA98F37D20DAB39700ECF795 /* UIView+Util.h */,
+				CA98F37E20DAB39700ECF795 /* UIView+Util.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E72093DF000FAFC7659A2E1B /* Pods */ = {
@@ -590,14 +938,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA98F38520DAB39700ECF795 /* UIView+Util.m in Sources */,
+				CA98F34C20DAB2FA00ECF795 /* BaseTBV.m in Sources */,
 				CA12D97B20D6A77000091F5A /* AppDelegate.m in Sources */,
+				CA98F35520DAB31700ECF795 /* BaseDto.m in Sources */,
 				CA12D97C20D6A77000091F5A /* BaseVC.m in Sources */,
+				CA98F35920DAB31E00ECF795 /* BaseCell.m in Sources */,
+				CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */,
 				CA12D97E20D6A77000091F5A /* InspirationController.m in Sources */,
+				CA98F34520DAB2CB00ECF795 /* MenuVC.m in Sources */,
+				CA98F33D20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				CA98F34020DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				CA98F33020DAB27D00ECF795 /* SlideNavigationController.m in Sources */,
+				CA98F38220DAB39700ECF795 /* NSDate+NSDateEx.m in Sources */,
 				CA12D98120D6A77000091F5A /* YALSunnyRefreshControl.m in Sources */,
+				CA98F38020DAB39700ECF795 /* HButton.m in Sources */,
 				CA12D97F20D6A77000091F5A /* MainController.m in Sources */,
+				CA98F35120DAB30D00ECF795 /* BaseColCell.m in Sources */,
+				CA98F37F20DAB39700ECF795 /* UIButton+Button.m in Sources */,
+				CA98F38120DAB39700ECF795 /* NSDateFormatter+Util.m in Sources */,
 				CA12D97D20D6A77000091F5A /* ExpertsController.m in Sources */,
 				CA12D98420D6A77000091F5A /* main.m in Sources */,
 				CA12D98020D6A77000091F5A /* ProductsController.m in Sources */,
+				CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */,
+				CA98F33F20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				CA763BEC20D97098007BBC24 /* NavVC.m in Sources */,
+				CA763BE520D96B60007BBC24 /* CAPSPageMenu.m in Sources */,
+				CA98F34D20DAB2FA00ECF795 /* BaseClv.m in Sources */,
+				CA763B1720D96832007BBC24 /* LoginController.m in Sources */,
+				CA98F34120DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				CA98F33E20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
