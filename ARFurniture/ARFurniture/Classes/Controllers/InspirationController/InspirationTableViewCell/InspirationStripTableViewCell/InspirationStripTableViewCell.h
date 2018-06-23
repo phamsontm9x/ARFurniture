@@ -1,13 +1,13 @@
 //
-//  InspirationController.h
+//  InspirationStripTableViewCell.h
 //  ARFurniture
 //
 //  Created by ThanhSon on 6/23/18.
 //  Copyright © 2018 ThanhSon. All rights reserved.
 //
 
-#import "BaseTBV.h"
+#import "BaseCell.h"
 
-@interface InspirationController : BaseTBV
+@interface InspirationStripTableViewCell : BaseCell
 
 @end

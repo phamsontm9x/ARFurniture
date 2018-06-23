@@ -2,17 +2,20 @@
 //  InspirationController.m
 //  ARFurniture
 //
-//  Created by ThanhSon on 6/17/18.
+//  Created by ThanhSon on 6/23/18.
 //  Copyright © 2018 ThanhSon. All rights reserved.
 //
 
 #import "InspirationController.h"
+#import "InspirationTableViewCell.h"
 
 @implementation InspirationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self initUITableView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -20,14 +23,46 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+- (void)reloadData {
+    [self hideIndicator];
+}
+
+- (void)initUITableView {
+    
+    [self.tableView registerNib:[UINib nibWithNibName:@"InspirationTableViewCell" bundle:nil] forCellReuseIdentifier:@"InspirationTableViewCell"];
+    [self addPullRefreshAtVC:self toReloadAction:@selector(reloadData)];
+    
+    // Add headerTableView
+    CGRect frameTBV = self.tableView.frame;
+    UIView *viewHeader = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frameTBV.size.width, 15)];
+    viewHeader.backgroundColor = [UIColor clearColor];
+    self.tableView.tableHeaderView = viewHeader;
+}
+
+
+#pragma mark - UITableView
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 120;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    InspirationTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"InspirationTableViewCell"];
+    cell.imgIcon.image = [UIImage imageNamed:SF(@"imageInspiration%ld",indexPath.row)];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
 
 @end
