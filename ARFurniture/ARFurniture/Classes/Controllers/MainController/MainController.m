@@ -55,11 +55,9 @@
 - (void)initPageMenu {
     NSMutableArray *controllerArray = [NSMutableArray array];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    _productsController = [storyboard instantiateViewControllerWithIdentifier:@"ProductsController"];
-    _expertController = [storyboard instantiateViewControllerWithIdentifier:@"ExpertsController"];
-    _inspirationController = [storyboard instantiateViewControllerWithIdentifier:@"InspirationController"];
+    _productsController = VCFromSB(ProductsController, SB_Products);
+    _expertController = VCFromSB(ExpertsController, SB_Experts);
+    _inspirationController = VCFromSB(InspirationController, SB_Inspirations);
     
     _productsController.title = @"PRODUCTS";
     _expertController.title = @"EXPERTS";
