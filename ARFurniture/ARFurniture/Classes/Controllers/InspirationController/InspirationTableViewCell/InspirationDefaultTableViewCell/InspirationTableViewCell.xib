@@ -21,16 +21,16 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMM-Yj-GqV">
-                        <rect key="frame" x="10" y="0.0" width="444" height="100.5"/>
+                        <rect key="frame" x="10" y="0.0" width="444" height="94.5"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XAI-9e-RDh">
-                                <rect key="frame" x="10" y="5" width="85.5" height="85.5"/>
+                                <rect key="frame" x="10" y="5" width="79.5" height="79.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XAI-9e-RDh" secondAttribute="height" multiplier="1:1" id="IJ4-G0-4MB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 ways to decorate with marsala" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOS-vy-s31">
-                                <rect key="frame" x="100.5" y="15" width="338.5" height="18"/>
+                                <rect key="frame" x="94.5" y="15" width="344.5" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="mRr-Ib-UH2"/>
                                 </constraints>
@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 May, 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2M-6r-Zxv">
-                                <rect key="frame" x="100.5" y="69.5" width="338.5" height="21"/>
+                                <rect key="frame" x="94.5" y="63.5" width="344.5" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="KcR-7q-FlW"/>
                                 </constraints>
@@ -48,7 +48,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jI-QI-H9N">
-                                <rect key="frame" x="100.5" y="38" width="338.5" height="29"/>
+                                <rect key="frame" x="94.5" y="38" width="344.5" height="25.5"/>
                                 <string key="text">Sensual and bold, delicious Marsala is a
 daringly inviting tone that nurtures ...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -77,7 +77,7 @@ daringly inviting tone that nurtures ...</string>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstItem="cMM-Yj-GqV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Wqi-IZ-IXk"/>
-                    <constraint firstAttribute="bottom" secondItem="cMM-Yj-GqV" secondAttribute="bottom" constant="-1" id="eY7-xT-E3A"/>
+                    <constraint firstAttribute="bottom" secondItem="cMM-Yj-GqV" secondAttribute="bottom" constant="5" id="eY7-xT-E3A"/>
                     <constraint firstItem="cMM-Yj-GqV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="x8e-hO-TDb"/>
                     <constraint firstAttribute="trailing" secondItem="cMM-Yj-GqV" secondAttribute="trailing" constant="10" id="xrL-by-gHG"/>
                 </constraints>

@@ -28,6 +28,7 @@
     [SlideNavigationController sharedInstance].portraitSlideOffset = 100;
     [SlideNavigationController sharedInstance].enableShadow = NO;
     
+    
     MainController *vc = VCFromSB(MainController, SB_Main);
     [AppNav popToRootAndSwitchToViewController:vc withSlideOutAnimation:NO
                                  andCompletion:nil];

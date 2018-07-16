@@ -51,23 +51,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="107"/>
+            <point key="canvasLocation" x="1332" y="106.59670164917542"/>
         </scene>
         <!--Slide Navigation Controller-->
         <scene sceneID="brP-sm-isC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PCz-hu-xRk" customClass="SlideNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="i26-lK-BtO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" backIndicatorImage="ic_back" backIndicatorTransitionMaskImage="ic_back" id="i26-lK-BtO">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.43137254901960786" green="0.77647058823529413" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zn7-Px-f3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-874" y="2"/>
+            <point key="canvasLocation" x="-1124" y="8"/>
         </scene>
         <!--MenuVC-->
         <scene sceneID="WE5-OQ-7fd">
@@ -205,12 +206,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="41k-4L-hbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-76" y="0.44977511244377816"/>
+            <point key="canvasLocation" x="-278" y="8"/>
         </scene>
     </scenes>
     <resources>
         <image name="bgMenu" width="304" height="172"/>
         <image name="defaultAvatar" width="56" height="56"/>
+        <image name="ic_back" width="25" height="25"/>
         <image name="ic_cart" width="18" height="18"/>
         <image name="ic_menu" width="20" height="12"/>
         <image name="ic_search" width="18" height="18"/>

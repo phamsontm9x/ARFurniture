@@ -8,6 +8,7 @@
 
 #import "ProductsController.h"
 #import "ProductsCollectionViewCell.h"
+#import "DetailProductController.h"
 
 
 @interface ProductsController () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
@@ -24,6 +25,7 @@
     // Do any additional setup after loading the view.
     [self.clvContent registerNib:[UINib nibWithNibName:@"ProductsCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"ProductsCollectionViewCell"];
     [self.clvContent addPullRefreshAtVC:self toReloadAction:@selector(reloadData)];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +36,7 @@
 - (void)reloadData {
     [self.clvContent hideIndicator];    	
 }
+
 
 
 #pragma mark - CollectionView
@@ -74,7 +77,8 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-
+    DetailProductController *vc = VCFromSB(DetailProductController, SB_Products);
+    [AppNav pushViewController:vc animated:YES];
 }
 
 @end

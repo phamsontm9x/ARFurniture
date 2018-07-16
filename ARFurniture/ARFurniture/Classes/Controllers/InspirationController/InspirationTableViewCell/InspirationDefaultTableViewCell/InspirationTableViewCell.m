@@ -12,8 +12,8 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.vBackground.layer.borderColor = [UIColor lightGrayColor].CGColor;
-    self.vBackground.layer.borderWidth = 1;
+//    self.vBackground.layer.borderColor = [UIColor lightGrayColor].CGColor;
+//    self.vBackground.layer.borderWidth = 1;
     self.vBackground.layer.cornerRadius = 5;
     self.vBackground.layer.masksToBounds = YES;
 

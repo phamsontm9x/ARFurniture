@@ -19,7 +19,6 @@
 		CA12D98320D6A77000091F5A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97020D6A77000091F5A /* Info.plist */; };
 		CA12D98420D6A77000091F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12D97120D6A77000091F5A /* main.m */; };
 		CA12D98520D6A77000091F5A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97420D6A77000091F5A /* art.scnassets */; };
-		CA12D98620D6A77000091F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97520D6A77000091F5A /* Assets.xcassets */; };
 		CA12D98720D6A77000091F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97720D6A77000091F5A /* LaunchScreen.storyboard */; };
 		CA12D98820D6A77000091F5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA12D97920D6A77000091F5A /* Main.storyboard */; };
 		CA12EDBC20D52D0E008939DF /* ARFurnitureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12EDBB20D52D0E008939DF /* ARFurnitureTests.m */; };
@@ -37,6 +36,11 @@
 		CA763BEC20D97098007BBC24 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA763BEB20D97098007BBC24 /* NavVC.m */; };
 		CA778A9B20DBEFD60043C071 /* ProductsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA778A9920DBEFD60043C071 /* ProductsCollectionViewCell.m */; };
 		CA778A9C20DBEFD60043C071 /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA778A9A20DBEFD60043C071 /* ProductsCollectionViewCell.xib */; };
+		CA7C9AD420FCA64F00F1143B /* ARAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD320FCA64F00F1143B /* ARAlertController.m */; };
+		CA7C9AD720FCA65700F1143B /* ARSCNViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */; };
+		CA7C9ADA20FCA65E00F1143B /* ARGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */; };
+		CA7C9ADD20FCA66400F1143B /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9ADB20FCA66400F1143B /* ARViewController.m */; };
+		CA7C9AE520FCABAC00F1143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7C9AE420FCABAB00F1143B /* Assets.xcassets */; };
 		CA98F33020DAB27D00ECF795 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F32F20DAB27D00ECF795 /* SlideNavigationController.m */; };
 		CA98F33D20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33420DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m */; };
 		CA98F33E20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F33620DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m */; };
@@ -56,6 +60,11 @@
 		CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37820DAB39700ECF795 /* NSTimeZone+Util.m */; };
 		CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37B20DAB39700ECF795 /* NSString+Util.m */; };
 		CA98F38520DAB39700ECF795 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98F37E20DAB39700ECF795 /* UIView+Util.m */; };
+		CAE0F89020E7320000957367 /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE0F88B20E7320000957367 /* TYCyclePagerTransformLayout.m */; };
+		CAE0F89120E7320000957367 /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE0F88D20E7320000957367 /* TYCyclePagerView.m */; };
+		CAE0F89220E7320000957367 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE0F88F20E7320000957367 /* TYPageControl.m */; };
+		CAE0F89A20E7348600957367 /* DetailProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE0F89820E7348600957367 /* DetailProductCell.m */; };
+		CAE0F89B20E7348600957367 /* DetailProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE0F89920E7348600957367 /* DetailProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,7 +107,6 @@
 		CA12D97020D6A77000091F5A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA12D97120D6A77000091F5A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA12D97420D6A77000091F5A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CA12D97520D6A77000091F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA12D97820D6A77000091F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA12D97A20D6A77000091F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA12ED9D20D52D0E008939DF /* ARFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +137,15 @@
 		CA778A9820DBEFD60043C071 /* ProductsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewCell.h; sourceTree = "<group>"; };
 		CA778A9920DBEFD60043C071 /* ProductsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewCell.m; sourceTree = "<group>"; };
 		CA778A9A20DBEFD60043C071 /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
+		CA7C9AD220FCA64F00F1143B /* ARAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAlertController.h; sourceTree = "<group>"; };
+		CA7C9AD320FCA64F00F1143B /* ARAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAlertController.m; sourceTree = "<group>"; };
+		CA7C9AD520FCA65700F1143B /* ARSCNViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSCNViewControl.h; sourceTree = "<group>"; };
+		CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewControl.m; sourceTree = "<group>"; };
+		CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGestureControl.m; sourceTree = "<group>"; };
+		CA7C9AD920FCA65E00F1143B /* ARGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGestureControl.h; sourceTree = "<group>"; };
+		CA7C9ADB20FCA66400F1143B /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		CA7C9ADC20FCA66400F1143B /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		CA7C9AE420FCABAB00F1143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA98F32E20DAB27D00ECF795 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
 		CA98F32F20DAB27D00ECF795 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 		CA98F33220DAB2C000ECF795 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
@@ -169,6 +186,15 @@
 		CA98F37B20DAB39700ECF795 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		CA98F37D20DAB39700ECF795 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		CA98F37E20DAB39700ECF795 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		CAE0F88A20E7320000957367 /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		CAE0F88B20E7320000957367 /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		CAE0F88C20E7320000957367 /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
+		CAE0F88D20E7320000957367 /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
+		CAE0F88E20E7320000957367 /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
+		CAE0F88F20E7320000957367 /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
+		CAE0F89720E7348600957367 /* DetailProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailProductCell.h; sourceTree = "<group>"; };
+		CAE0F89820E7348600957367 /* DetailProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailProductCell.m; sourceTree = "<group>"; };
+		CAE0F89920E7348600957367 /* DetailProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,13 +293,14 @@
 		CA12D95B20D6A77000091F5A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CA4127D120E72A92008DCAF6 /* DetailProductController */,
+				CA7C9ACD20FCA60000F1143B /* ProductsArkit */,
 				CA98F34220DAB2CB00ECF795 /* MenuVC */,
 				CA763BE220D96B55007BBC24 /* BaseMenu */,
 				CA763B1420D967AD007BBC24 /* Login */,
 				CA12D95C20D6A77000091F5A /* ExpertsController */,
 				CA12D95F20D6A77000091F5A /* InspirationController */,
 				CA12D96620D6A77000091F5A /* ProductsController */,
+				CA4127D120E72A92008DCAF6 /* DetailProductController */,
 				CA12D96320D6A77000091F5A /* MainController */,
 			);
 			path = Controllers;
@@ -320,6 +347,7 @@
 		CA12D96B20D6A77000091F5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CAE0F88920E7320000957367 /* TYCyclePagerView */,
 				CA12D96C20D6A77000091F5A /* YALSunnyRefreshControll */,
 			);
 			path = View;
@@ -347,8 +375,8 @@
 		CA12D97320D6A77000091F5A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CA7C9AE420FCABAB00F1143B /* Assets.xcassets */,
 				CA12D97420D6A77000091F5A /* art.scnassets */,
-				CA12D97520D6A77000091F5A /* Assets.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -436,6 +464,7 @@
 		CA4127D120E72A92008DCAF6 /* DetailProductController */ = {
 			isa = PBXGroup;
 			children = (
+				CAE0F89320E7344800957367 /* DetailProductCell */,
 				CA4127D220E72ABF008DCAF6 /* DetailProductController.h */,
 				CA4127D320E72ABF008DCAF6 /* DetailProductController.m */,
 			);
@@ -477,6 +506,53 @@
 				CA778A9A20DBEFD60043C071 /* ProductsCollectionViewCell.xib */,
 			);
 			path = ProductsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CA7C9ACD20FCA60000F1143B /* ProductsArkit */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C9AD120FCA64000F1143B /* ARAlertController */,
+				CA7C9AD020FCA63800F1143B /* ARSCNViewControl */,
+				CA7C9ACF20FCA62E00F1143B /* ARGestureControl */,
+				CA7C9ACE20FCA61D00F1143B /* ARViewController */,
+			);
+			path = ProductsArkit;
+			sourceTree = "<group>";
+		};
+		CA7C9ACE20FCA61D00F1143B /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C9ADC20FCA66400F1143B /* ARViewController.h */,
+				CA7C9ADB20FCA66400F1143B /* ARViewController.m */,
+			);
+			path = ARViewController;
+			sourceTree = "<group>";
+		};
+		CA7C9ACF20FCA62E00F1143B /* ARGestureControl */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C9AD920FCA65E00F1143B /* ARGestureControl.h */,
+				CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */,
+			);
+			path = ARGestureControl;
+			sourceTree = "<group>";
+		};
+		CA7C9AD020FCA63800F1143B /* ARSCNViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C9AD520FCA65700F1143B /* ARSCNViewControl.h */,
+				CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */,
+			);
+			path = ARSCNViewControl;
+			sourceTree = "<group>";
+		};
+		CA7C9AD120FCA64000F1143B /* ARAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C9AD220FCA64F00F1143B /* ARAlertController.h */,
+				CA7C9AD320FCA64F00F1143B /* ARAlertController.m */,
+			);
+			path = ARAlertController;
 			sourceTree = "<group>";
 		};
 		CA98F32D20DAB27D00ECF795 /* SlideNavigationController */ = {
@@ -752,6 +828,29 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CAE0F88920E7320000957367 /* TYCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0F88A20E7320000957367 /* TYCyclePagerTransformLayout.h */,
+				CAE0F88B20E7320000957367 /* TYCyclePagerTransformLayout.m */,
+				CAE0F88C20E7320000957367 /* TYCyclePagerView.h */,
+				CAE0F88D20E7320000957367 /* TYCyclePagerView.m */,
+				CAE0F88E20E7320000957367 /* TYPageControl.h */,
+				CAE0F88F20E7320000957367 /* TYPageControl.m */,
+			);
+			path = TYCyclePagerView;
+			sourceTree = "<group>";
+		};
+		CAE0F89320E7344800957367 /* DetailProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0F89720E7348600957367 /* DetailProductCell.h */,
+				CAE0F89820E7348600957367 /* DetailProductCell.m */,
+				CAE0F89920E7348600957367 /* DetailProductCell.xib */,
+			);
+			path = DetailProductCell;
+			sourceTree = "<group>";
+		};
 		E72093DF000FAFC7659A2E1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -879,12 +978,13 @@
 				CA3EB16120DDED7A004E2DFD /* InspirationTableViewCell.xib in Resources */,
 				CA12D98320D6A77000091F5A /* Info.plist in Resources */,
 				CA12D98520D6A77000091F5A /* art.scnassets in Resources */,
-				CA12D98620D6A77000091F5A /* Assets.xcassets in Resources */,
 				CA3CEB5520E285030017A990 /* Experts.storyboard in Resources */,
+				CAE0F89B20E7348600957367 /* DetailProductCell.xib in Resources */,
 				CA12D98820D6A77000091F5A /* Main.storyboard in Resources */,
 				CA12D98720D6A77000091F5A /* LaunchScreen.storyboard in Resources */,
 				CA3CEB5320E284E60017A990 /* Inspirations.storyboard in Resources */,
 				CA778A9C20DBEFD60043C071 /* ProductsCollectionViewCell.xib in Resources */,
+				CA7C9AE520FCABAC00F1143B /* Assets.xcassets in Resources */,
 				CA12D98220D6A77000091F5A /* YALSunnyRefreshControl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1026,12 +1126,18 @@
 				CA98F35920DAB31E00ECF795 /* BaseCell.m in Sources */,
 				CA4127D420E72ABF008DCAF6 /* DetailProductController.m in Sources */,
 				CA3EB16520DDEDC4004E2DFD /* InspirationController.m in Sources */,
+				CA7C9AD720FCA65700F1143B /* ARSCNViewControl.m in Sources */,
+				CAE0F89120E7320000957367 /* TYCyclePagerView.m in Sources */,
+				CA7C9AD420FCA64F00F1143B /* ARAlertController.m in Sources */,
 				CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */,
 				CA3EB16020DDED7A004E2DFD /* InspirationTableViewCell.m in Sources */,
 				CA778A9B20DBEFD60043C071 /* ProductsCollectionViewCell.m in Sources */,
 				CA98F34520DAB2CB00ECF795 /* MenuVC.m in Sources */,
+				CA7C9ADA20FCA65E00F1143B /* ARGestureControl.m in Sources */,
 				CA98F33D20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				CAE0F89020E7320000957367 /* TYCyclePagerTransformLayout.m in Sources */,
 				CA98F34020DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				CA7C9ADD20FCA66400F1143B /* ARViewController.m in Sources */,
 				CA98F33020DAB27D00ECF795 /* SlideNavigationController.m in Sources */,
 				CA98F38220DAB39700ECF795 /* NSDate+NSDateEx.m in Sources */,
 				CA12D98120D6A77000091F5A /* YALSunnyRefreshControl.m in Sources */,
@@ -1042,6 +1148,7 @@
 				CA98F38120DAB39700ECF795 /* NSDateFormatter+Util.m in Sources */,
 				CA12D97D20D6A77000091F5A /* ExpertsController.m in Sources */,
 				CA12D98420D6A77000091F5A /* main.m in Sources */,
+				CAE0F89A20E7348600957367 /* DetailProductCell.m in Sources */,
 				CA12D98020D6A77000091F5A /* ProductsController.m in Sources */,
 				CA3EB16A20DDF3F4004E2DFD /* InspirationStripTableViewCell.m in Sources */,
 				CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */,
@@ -1051,6 +1158,7 @@
 				CA98F34D20DAB2FA00ECF795 /* BaseClv.m in Sources */,
 				CA763B1720D96832007BBC24 /* LoginController.m in Sources */,
 				CA98F34120DAB2C000ECF795 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				CAE0F89220E7320000957367 /* TYPageControl.m in Sources */,
 				CA98F33E20DAB2C000ECF795 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1218,6 +1326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1233,6 +1342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";

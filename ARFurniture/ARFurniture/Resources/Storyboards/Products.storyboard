@@ -61,5 +61,142 @@
             </objects>
             <point key="canvasLocation" x="-76" y="821.73913043478262"/>
         </scene>
+        <!--Detail Product Controller-->
+        <scene sceneID="ODH-r5-aFi">
+            <objects>
+                <viewController storyboardIdentifier="DetailProductController" id="EGg-2q-rmf" customClass="DetailProductController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SGF-eQ-zyP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qyR-Rj-KiC" customClass="TYCyclePagerView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="wfW-VW-j8S"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bn-5Y-ZO3">
+                                <rect key="frame" x="172" y="407" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="openArkit:" destination="EGg-2q-rmf" eventType="touchUpInside" id="K2p-4Z-QI8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qyR-Rj-KiC" firstAttribute="top" secondItem="9jg-Vl-Wr5" secondAttribute="top" id="EVO-gS-zFk"/>
+                            <constraint firstItem="9jg-Vl-Wr5" firstAttribute="trailing" secondItem="qyR-Rj-KiC" secondAttribute="trailing" id="ILq-Pz-ya6"/>
+                            <constraint firstItem="qyR-Rj-KiC" firstAttribute="leading" secondItem="9jg-Vl-Wr5" secondAttribute="leading" id="mGA-Mf-pV5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9jg-Vl-Wr5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="345-nF-vPK"/>
+                    <connections>
+                        <outlet property="pagerView" destination="qyR-Rj-KiC" id="BNQ-6T-QAW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ck-HN-AE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1009" y="838"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SdD-kh-1j2">
+            <objects>
+                <viewController storyboardIdentifier="ARViewController" id="Hxv-lQ-TR7" customClass="ARViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="87z-fU-wSm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dud-SY-3p3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Hxv-lQ-TR7" id="td1-bI-W01"/>
+                                </connections>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikh-ty-12A">
+                                <rect key="frame" x="167" y="563" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="S7g-uh-h1j"/>
+                                    <constraint firstAttribute="height" constant="40" id="YIR-cI-2xB"/>
+                                </constraints>
+                                <state key="normal" image="add"/>
+                                <connections>
+                                    <action selector="addNodeAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="9I4-im-jkJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU3-70-dTo">
+                                <rect key="frame" x="327" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="06U-JO-J95"/>
+                                    <constraint firstAttribute="width" constant="40" id="rhc-5q-sQE"/>
+                                </constraints>
+                                <state key="normal" image="refresh"/>
+                                <connections>
+                                    <action selector="refreshSessionAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="IRa-z2-0KY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Af7-3F-25l">
+                                <rect key="frame" x="315" y="563" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="ZYq-p5-3fs"/>
+                                    <constraint firstAttribute="height" constant="40" id="mls-Rh-5cf"/>
+                                </constraints>
+                                <state key="normal" image="camera"/>
+                                <connections>
+                                    <action selector="snapshotAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="lK9-MQ-3Ym"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQe-HV-MVQ">
+                                <rect key="frame" x="20" y="563" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="0fp-Ap-CNz"/>
+                                    <constraint firstAttribute="height" constant="40" id="wzc-8I-2RN"/>
+                                </constraints>
+                                <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="removeAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="tie-2O-1Iu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dud-SY-3p3" firstAttribute="trailing" secondItem="f9a-vg-Yxs" secondAttribute="trailing" id="1dY-dW-TZ2"/>
+                            <constraint firstItem="ikh-ty-12A" firstAttribute="centerX" secondItem="f9a-vg-Yxs" secondAttribute="centerX" id="C9N-Tc-R2a"/>
+                            <constraint firstItem="dud-SY-3p3" firstAttribute="top" secondItem="f9a-vg-Yxs" secondAttribute="top" id="EEv-Qk-5lf"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="bottom" secondItem="DQe-HV-MVQ" secondAttribute="bottom" constant="20" id="H4H-5L-tgG"/>
+                            <constraint firstItem="XU3-70-dTo" firstAttribute="top" secondItem="f9a-vg-Yxs" secondAttribute="top" id="QV2-G3-jbj"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="bottom" secondItem="ikh-ty-12A" secondAttribute="bottom" constant="20" id="Uyg-Zf-SHA"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="bottom" secondItem="Af7-3F-25l" secondAttribute="bottom" constant="20" id="eix-YP-ko4"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="bottom" secondItem="dud-SY-3p3" secondAttribute="bottom" id="uGt-f3-DmS"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="trailing" secondItem="Af7-3F-25l" secondAttribute="trailing" constant="20" id="udE-yz-zhr"/>
+                            <constraint firstItem="dud-SY-3p3" firstAttribute="leading" secondItem="f9a-vg-Yxs" secondAttribute="leading" id="ue0-yH-SfT"/>
+                            <constraint firstItem="f9a-vg-Yxs" firstAttribute="trailing" secondItem="XU3-70-dTo" secondAttribute="trailing" constant="8" id="vUb-ed-NIl"/>
+                            <constraint firstItem="DQe-HV-MVQ" firstAttribute="leading" secondItem="f9a-vg-Yxs" secondAttribute="leading" constant="20" id="ywH-gf-KQu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f9a-vg-Yxs"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addNodeButton" destination="ikh-ty-12A" id="C9Y-TK-zbn"/>
+                        <outlet property="refreshButton" destination="XU3-70-dTo" id="Zmc-Oz-7Of"/>
+                        <outlet property="removeButton" destination="DQe-HV-MVQ" id="nQe-WQ-sBh"/>
+                        <outlet property="sceneView" destination="dud-SY-3p3" id="YAa-f7-AbX"/>
+                        <outlet property="snapshotButton" destination="Af7-3F-25l" id="48k-yb-eAO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1F-ZX-00Z" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="844.22788605697156"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="add" width="24" height="24"/>
+        <image name="camera" width="24" height="24"/>
+        <image name="delete" width="24" height="24"/>
+        <image name="refresh" width="24" height="24"/>
+    </resources>
 </document>
