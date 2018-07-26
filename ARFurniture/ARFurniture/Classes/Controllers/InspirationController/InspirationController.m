@@ -8,13 +8,15 @@
 
 #import "InspirationController.h"
 #import "InspirationTableViewCell.h"
+#import "InspirationLagreTableViewCell.h"
+#include <stdlib.h>
+
 
 @implementation InspirationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self initUITableView];
 }
 
@@ -30,6 +32,10 @@
 - (void)initUITableView {
     
     [self.tableView registerNib:[UINib nibWithNibName:@"InspirationTableViewCell" bundle:nil] forCellReuseIdentifier:@"InspirationTableViewCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"InspirationLagreTableViewCell" bundle:nil] forCellReuseIdentifier:@"InspirationLagreTableViewCell"];
+    
+    self.tableView.estimatedRowHeight = 120;
+
     [self addPullRefreshAtVC:self toReloadAction:@selector(reloadData)];
     
     // Add headerTableView
@@ -43,7 +49,7 @@
 #pragma mark - UITableView
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return 20;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -51,13 +57,28 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.row % 3 == 0 && indexPath.row > 0) {
+        return UITableViewAutomaticDimension;
+    }
+    
     return 120;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    InspirationTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"InspirationTableViewCell"];
-    cell.imgIcon.image = [UIImage imageNamed:SF(@"imageInspiration%ld",indexPath.row)];
     
+    BaseCell *cell;
+    
+    if (indexPath.row % 3 == 0 && indexPath.row > 0) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"InspirationLagreTableViewCell"];
+        long row = arc4random_uniform(8);
+        cell.imvLagre1.image = [UIImage imageNamed:SF(@"imageInspiration%ld",(row )%10)];
+        cell.imvLagre2.image = [UIImage imageNamed:SF(@"imageInspiration%ld",(row+1)%10)];
+    } else {
+        cell = (InspirationTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"InspirationTableViewCell"];
+        cell.imgIcon.image = [UIImage imageNamed:SF(@"imageInspiration%ld",indexPath.row % 10)];
+    }
+
     return cell;
 }
 

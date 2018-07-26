@@ -7,6 +7,7 @@
 //
 
 #import "MenuVC.h"
+#import "WelcomeVC.h"
 
 
 typedef enum : NSUInteger {
@@ -58,7 +59,9 @@ typedef enum : NSUInteger {
 
 #pragma mark Action
 - (IBAction)btnLogout:(id)sender {
-    
+    WelcomeVC *vc = VCFromSB(WelcomeVC, SB_Main);
+    [AppNav popToRootAndSwitchToViewController:vc withSlideOutAnimation:YES
+                                 andCompletion:nil];
 }
 
 #pragma mark - UITableViewCell

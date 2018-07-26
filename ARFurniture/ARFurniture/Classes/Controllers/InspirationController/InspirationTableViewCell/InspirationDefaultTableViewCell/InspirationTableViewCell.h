@@ -10,7 +10,5 @@
 
 @interface InspirationTableViewCell : BaseCell
 
-@property (nonatomic, weak) IBOutlet UILabel *lblDate;
-
 
 @end

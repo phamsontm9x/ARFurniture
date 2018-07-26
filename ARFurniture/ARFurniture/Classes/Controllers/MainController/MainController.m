@@ -29,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.navigationController setNavigationBarHidden:NO];
     [self initUINavigation];
     [self initPageMenu];
 }
@@ -48,7 +48,20 @@
     
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     
-    UIBarButtonItem * barCart = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"ic_cart"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(selectedCart:)];
+    
+    UIImage *image = [[UIImage imageNamed:@"ic_cartsmall"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    
+    UIButton *cButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    cButton.contentMode = UIViewContentModeScaleAspectFit;
+    [cButton setImage:image forState:UIControlStateNormal];
+    [cButton addTarget:self action:@selector(selectedCart:) forControlEvents:UIControlEventTouchUpInside];
+    if (@available(iOS 9, *)) {
+        [cButton.widthAnchor constraintEqualToConstant: 32].active = YES;
+        [cButton.heightAnchor constraintEqualToConstant: 32].active = YES;
+    }
+    
+    UIBarButtonItem *barCart = [[UIBarButtonItem alloc] initWithCustomView:cButton];
+    
     self.navigationItem.rightBarButtonItem = barCart;
 }
 
@@ -71,8 +84,8 @@
     NSDictionary *parameters = @{
                                  CAPSPageMenuOptionScrollMenuBackgroundColor: [UIColor colorWithRed:110.0/255.0 green:198.0/255.0 blue:197.0/255.0 alpha:1.0],
                                  CAPSPageMenuOptionViewBackgroundColor: [UIColor colorWithRed:20.0/255.0 green:20.0/255.0 blue:20.0/255.0 alpha:1.0],
-                                 CAPSPageMenuOptionSelectionIndicatorColor: [UIColor darkGrayColor],
-                                 CAPSPageMenuOptionBottomMenuHairlineColor: [UIColor lightGrayColor],
+                                 CAPSPageMenuOptionSelectionIndicatorColor: [UIColor colorWithRed:71.0/255.0 green:78.0/255.0 blue:86.0/255.0 alpha:1.0],
+                                 CAPSPageMenuOptionBottomMenuHairlineColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.4],
                                  CAPSPageMenuOptionMenuItemFont: [UIFont fontWithName:@"HelveticaNeue" size:15.0],
                                  CAPSPageMenuOptionMenuHeight: @(40.0),
                                  CAPSPageMenuOptionMenuItemWidth: @(self.view.frame.size.width/3 - 20),

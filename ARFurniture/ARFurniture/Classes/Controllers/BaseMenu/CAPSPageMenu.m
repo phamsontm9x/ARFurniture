@@ -191,7 +191,7 @@ NSString * const CAPSPageMenuOptionHideTopMenuBar                       = @"hide
     _selectionIndicatorColor      = [UIColor whiteColor];
     _selectedMenuItemLabelColor   = [UIColor whiteColor];
     _unselectedMenuItemLabelColor = [UIColor lightGrayColor];
-    _scrollMenuBackgroundColor    = [UIColor blackColor];
+    _scrollMenuBackgroundColor    = [UIColor groupTableViewBackgroundColor];
     _viewBackgroundColor          = [UIColor whiteColor];
     _bottomMenuHairlineColor      = [UIColor whiteColor];
     _menuItemSeparatorColor       = [UIColor lightGrayColor];
@@ -218,6 +218,7 @@ NSString * const CAPSPageMenuOptionHideTopMenuBar                       = @"hide
     _didTapMenuItemToScroll = NO;
     
     _pagesAddedSet = [NSMutableSet set];
+    
 }
 
 - (void)setUpUserInterface
@@ -279,7 +280,7 @@ NSString * const CAPSPageMenuOptionHideTopMenuBar                       = @"hide
     _controllerScrollView.showsVerticalScrollIndicator   = NO;
     
     // Set background color behind scroll views and for menu scroll view
-    self.view.backgroundColor = _viewBackgroundColor;
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     _menuScrollView.backgroundColor = _scrollMenuBackgroundColor;
 }
 

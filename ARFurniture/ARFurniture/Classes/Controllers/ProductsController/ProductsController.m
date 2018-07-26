@@ -65,13 +65,13 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 10;
+    return 30;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     ProductsCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ProductsCollectionViewCell" forIndexPath:indexPath];
-    cell.imgIcon.image = [UIImage imageNamed:SF(@"imageInspiration%ld",indexPath.row)];
+    cell.imgIcon.image = [UIImage imageNamed:SF(@"imageInspiration%ld",indexPath.row % 10)];
     
     return cell;
 }

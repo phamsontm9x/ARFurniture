@@ -141,6 +141,14 @@
 
 #pragma mark - Button Actions
 
+- (IBAction)dismissAction:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)rulerAction:(id)sender {
+    
+}
+
 - (IBAction)refreshSessionAction:(id)sender {
     [self refreshSession];
 }
@@ -156,12 +164,17 @@
 - (IBAction)snapshotAction:(id)sender {
     
     [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
-        if (status == PHAuthorizationStatusAuthorized) {
-            UIImage *image = [self.sceneView snapshot];
-            UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
-        } else {
-            NSString *accessDescription = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSPhotoLibraryUsageDescription"];
-            [self.alertController showPermissionAlertWithDescription:accessDescription];
+        if (status == PHAuthorizationStatusNotDetermined) {
+            // Access has not been determined.
+            [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+                if (status == PHAuthorizationStatusAuthorized) {
+                    UIImage *image = [self.sceneView snapshot];
+                    UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
+                }else {
+                    NSString *accessDescription = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSPhotoLibraryUsageDescription"];
+                    [self.alertController showPermissionAlertWithDescription:accessDescription];
+                }
+            }];
         }
     }];
 }

@@ -10,6 +10,7 @@
 #import "define.h"
 #import "MenuVC.h"
 #import "MainController.h"
+#import "WelcomeVC.h"
 
 @interface AppDelegate ()
 
@@ -28,8 +29,10 @@
     [SlideNavigationController sharedInstance].portraitSlideOffset = 100;
     [SlideNavigationController sharedInstance].enableShadow = NO;
     
+
     
-    MainController *vc = VCFromSB(MainController, SB_Main);
+    
+    WelcomeVC *vc = VCFromSB(WelcomeVC, SB_Main);
     [AppNav popToRootAndSwitchToViewController:vc withSlideOutAnimation:NO
                                  andCompletion:nil];
  
