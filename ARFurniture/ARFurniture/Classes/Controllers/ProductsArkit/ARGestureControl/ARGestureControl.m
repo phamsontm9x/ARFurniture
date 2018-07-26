@@ -58,7 +58,7 @@
 }
 
 - (void)handleScaleObjectFrom: (UIPinchGestureRecognizer *)recognizer {
-
+    
     [self scaleARObject:recognizer];
 }
 
@@ -108,8 +108,7 @@
 #pragma mark - Remove AR object
 
 - (void)removeARObject:(id)sender {
-//    SCNAction *action = [SCNAction rotateByX:0 y:2*M_PI_2/180 z:0 duration:2];
-//    [self.movedObject runAction:action];
+    
     [[self.removeHitResult.node parentNode] removeFromParentNode];
     self.viewController.removeButton.hidden = YES;
 }

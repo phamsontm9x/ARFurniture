@@ -429,7 +429,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" jitteringEnabled="YES" allowsCameraControl="YES" wantsMultisampling="YES" autoenablesDefaultLighting="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dud-SY-3p3">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dud-SY-3p3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <connections>
                                     <outlet property="delegate" destination="Hxv-lQ-TR7" id="td1-bI-W01"/>
@@ -497,6 +497,14 @@
                                             <action selector="removeAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="tie-2O-1Iu"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ2-U9-Z6c">
+                                        <rect key="frame" x="250" y="18" width="24" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="add"/>
+                                        <connections>
+                                            <action selector="addNodeAction:" destination="Hxv-lQ-TR7" eventType="touchUpInside" id="lOb-nZ-NO2"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU3-70-dTo">
                                         <rect key="frame" x="325" y="10" width="40" height="40"/>
                                         <constraints>
@@ -557,8 +565,11 @@
                     </view>
                     <toolbarItems/>
                     <connections>
+                        <outlet property="addNodeButton" destination="hJ2-U9-Z6c" id="zyZ-7e-S3b"/>
+                        <outlet property="dismissButton" destination="ZUN-08-qQl" id="5DR-TH-EfX"/>
                         <outlet property="refreshButton" destination="XU3-70-dTo" id="Zmc-Oz-7Of"/>
                         <outlet property="removeButton" destination="DQe-HV-MVQ" id="nQe-WQ-sBh"/>
+                        <outlet property="rulerButton" destination="Gm0-AS-L53" id="qzz-P6-ILq"/>
                         <outlet property="sceneView" destination="dud-SY-3p3" id="YAa-f7-AbX"/>
                         <outlet property="snapshotButton" destination="Af7-3F-25l" id="48k-yb-eAO"/>
                     </connections>
@@ -569,6 +580,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add" width="24" height="24"/>
         <image name="camera" width="24" height="24"/>
         <image name="delete" width="24" height="24"/>
         <image name="exit" width="50" height="50"/>

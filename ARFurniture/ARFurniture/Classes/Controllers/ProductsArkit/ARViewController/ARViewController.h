@@ -24,11 +24,15 @@
 @property (weak, nonatomic) IBOutlet UIButton *removeButton;
 @property (weak, nonatomic) IBOutlet UIButton *addNodeButton;
 @property (weak, nonatomic) IBOutlet UIButton *snapshotButton;
+@property (weak, nonatomic) IBOutlet UIButton *rulerButton;
+@property (weak, nonatomic) IBOutlet UIButton *dismissButton;
 
 - (IBAction)refreshSessionAction:(id)sender;
 - (IBAction)removeAction:(id)sender;
 - (IBAction)addNodeAction:(id)sender;
 - (IBAction)snapshotAction:(id)sender;
+- (IBAction)rulerAction:(id)sender;
+- (IBAction)dismissAction:(id)sender;
 
 - (void)refreshSession;
 

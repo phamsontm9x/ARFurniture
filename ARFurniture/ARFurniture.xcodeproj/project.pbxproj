@@ -29,6 +29,10 @@
 		CA3EB16120DDED7A004E2DFD /* InspirationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3EB15F20DDED7A004E2DFD /* InspirationTableViewCell.xib */; };
 		CA3EB16520DDEDC4004E2DFD /* InspirationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB16420DDEDC4004E2DFD /* InspirationController.m */; };
 		CA3EB16A20DDF3F4004E2DFD /* InspirationStripTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB16920DDF3F4004E2DFD /* InspirationStripTableViewCell.m */; };
+		CA410C86210A13B4003A94D6 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA410C84210A13B4003A94D6 /* ARViewController.m */; };
+		CA410C89210A13BF003A94D6 /* ARSCNViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA410C88210A13BF003A94D6 /* ARSCNViewControl.m */; };
+		CA410C8C210A13CF003A94D6 /* ARGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA410C8A210A13CE003A94D6 /* ARGestureControl.m */; };
+		CA410C8F210A13D9003A94D6 /* ARAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA410C8E210A13D9003A94D6 /* ARAlertController.m */; };
 		CA4127D420E72ABF008DCAF6 /* DetailProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4127D320E72ABF008DCAF6 /* DetailProductController.m */; };
 		CA504AFF210873A10021B8A9 /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA504AFE210873A10021B8A9 /* WelcomeVC.m */; };
 		CA6F13DE2103F2A900C1F8A5 /* InspirationLagreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F13DC2103F2A900C1F8A5 /* InspirationLagreTableViewCell.m */; };
@@ -39,10 +43,6 @@
 		CA763BEC20D97098007BBC24 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA763BEB20D97098007BBC24 /* NavVC.m */; };
 		CA778A9B20DBEFD60043C071 /* ProductsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA778A9920DBEFD60043C071 /* ProductsCollectionViewCell.m */; };
 		CA778A9C20DBEFD60043C071 /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA778A9A20DBEFD60043C071 /* ProductsCollectionViewCell.xib */; };
-		CA7C9AD420FCA64F00F1143B /* ARAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD320FCA64F00F1143B /* ARAlertController.m */; };
-		CA7C9AD720FCA65700F1143B /* ARSCNViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */; };
-		CA7C9ADA20FCA65E00F1143B /* ARGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */; };
-		CA7C9ADD20FCA66400F1143B /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9ADB20FCA66400F1143B /* ARViewController.m */; };
 		CA7C9AE720FCACE300F1143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7C9AE620FCACE300F1143B /* Assets.xcassets */; };
 		CA7C9AFB20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AF020FCAF4E00F1143B /* SlideNavigationContorllerAnimatorFade.m */; };
 		CA7C9AFC20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C9AF220FCAF4E00F1143B /* SlideNavigationContorllerAnimatorScale.m */; };
@@ -131,6 +131,14 @@
 		CA3EB16420DDEDC4004E2DFD /* InspirationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspirationController.m; sourceTree = "<group>"; };
 		CA3EB16820DDF3F4004E2DFD /* InspirationStripTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspirationStripTableViewCell.h; sourceTree = "<group>"; };
 		CA3EB16920DDF3F4004E2DFD /* InspirationStripTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspirationStripTableViewCell.m; sourceTree = "<group>"; };
+		CA410C84210A13B4003A94D6 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		CA410C85210A13B4003A94D6 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		CA410C87210A13BF003A94D6 /* ARSCNViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSCNViewControl.h; sourceTree = "<group>"; };
+		CA410C88210A13BF003A94D6 /* ARSCNViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewControl.m; sourceTree = "<group>"; };
+		CA410C8A210A13CE003A94D6 /* ARGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGestureControl.m; sourceTree = "<group>"; };
+		CA410C8B210A13CE003A94D6 /* ARGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGestureControl.h; sourceTree = "<group>"; };
+		CA410C8D210A13D9003A94D6 /* ARAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAlertController.h; sourceTree = "<group>"; };
+		CA410C8E210A13D9003A94D6 /* ARAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAlertController.m; sourceTree = "<group>"; };
 		CA4127D220E72ABF008DCAF6 /* DetailProductController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailProductController.h; sourceTree = "<group>"; };
 		CA4127D320E72ABF008DCAF6 /* DetailProductController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailProductController.m; sourceTree = "<group>"; };
 		CA504AFD210873A10021B8A9 /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
@@ -148,14 +156,6 @@
 		CA778A9820DBEFD60043C071 /* ProductsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsCollectionViewCell.h; sourceTree = "<group>"; };
 		CA778A9920DBEFD60043C071 /* ProductsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsCollectionViewCell.m; sourceTree = "<group>"; };
 		CA778A9A20DBEFD60043C071 /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
-		CA7C9AD220FCA64F00F1143B /* ARAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAlertController.h; sourceTree = "<group>"; };
-		CA7C9AD320FCA64F00F1143B /* ARAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAlertController.m; sourceTree = "<group>"; };
-		CA7C9AD520FCA65700F1143B /* ARSCNViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSCNViewControl.h; sourceTree = "<group>"; };
-		CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewControl.m; sourceTree = "<group>"; };
-		CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGestureControl.m; sourceTree = "<group>"; };
-		CA7C9AD920FCA65E00F1143B /* ARGestureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGestureControl.h; sourceTree = "<group>"; };
-		CA7C9ADB20FCA66400F1143B /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
-		CA7C9ADC20FCA66400F1143B /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		CA7C9AE620FCACE300F1143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ARFurniture/Resources/Images/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		CA7C9AEE20FCAF4E00F1143B /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
 		CA7C9AEF20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
@@ -561,8 +561,8 @@
 		CA7C9ACE20FCA61D00F1143B /* ARViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CA7C9ADC20FCA66400F1143B /* ARViewController.h */,
-				CA7C9ADB20FCA66400F1143B /* ARViewController.m */,
+				CA410C85210A13B4003A94D6 /* ARViewController.h */,
+				CA410C84210A13B4003A94D6 /* ARViewController.m */,
 			);
 			path = ARViewController;
 			sourceTree = "<group>";
@@ -570,8 +570,8 @@
 		CA7C9ACF20FCA62E00F1143B /* ARGestureControl */ = {
 			isa = PBXGroup;
 			children = (
-				CA7C9AD920FCA65E00F1143B /* ARGestureControl.h */,
-				CA7C9AD820FCA65E00F1143B /* ARGestureControl.m */,
+				CA410C8B210A13CE003A94D6 /* ARGestureControl.h */,
+				CA410C8A210A13CE003A94D6 /* ARGestureControl.m */,
 			);
 			path = ARGestureControl;
 			sourceTree = "<group>";
@@ -579,8 +579,8 @@
 		CA7C9AD020FCA63800F1143B /* ARSCNViewControl */ = {
 			isa = PBXGroup;
 			children = (
-				CA7C9AD520FCA65700F1143B /* ARSCNViewControl.h */,
-				CA7C9AD620FCA65700F1143B /* ARSCNViewControl.m */,
+				CA410C87210A13BF003A94D6 /* ARSCNViewControl.h */,
+				CA410C88210A13BF003A94D6 /* ARSCNViewControl.m */,
 			);
 			path = ARSCNViewControl;
 			sourceTree = "<group>";
@@ -588,8 +588,8 @@
 		CA7C9AD120FCA64000F1143B /* ARAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				CA7C9AD220FCA64F00F1143B /* ARAlertController.h */,
-				CA7C9AD320FCA64F00F1143B /* ARAlertController.m */,
+				CA410C8D210A13D9003A94D6 /* ARAlertController.h */,
+				CA410C8E210A13D9003A94D6 /* ARAlertController.m */,
 			);
 			path = ARAlertController;
 			sourceTree = "<group>";
@@ -1177,23 +1177,22 @@
 				CA12D97C20D6A77000091F5A /* BaseVC.m in Sources */,
 				CA4127D420E72ABF008DCAF6 /* DetailProductController.m in Sources */,
 				CA3EB16520DDEDC4004E2DFD /* InspirationController.m in Sources */,
-				CA7C9AD720FCA65700F1143B /* ARSCNViewControl.m in Sources */,
 				CAE0F89120E7320000957367 /* TYCyclePagerView.m in Sources */,
+				CA410C86210A13B4003A94D6 /* ARViewController.m in Sources */,
 				CA7C9AFD20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
-				CA7C9AD420FCA64F00F1143B /* ARAlertController.m in Sources */,
 				CA7C9AFE20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */,
 				CA6F13DE2103F2A900C1F8A5 /* InspirationLagreTableViewCell.m in Sources */,
 				CA3EB16020DDED7A004E2DFD /* InspirationTableViewCell.m in Sources */,
 				CA778A9B20DBEFD60043C071 /* ProductsCollectionViewCell.m in Sources */,
 				CA98F34520DAB2CB00ECF795 /* MenuVC.m in Sources */,
-				CA7C9ADA20FCA65E00F1143B /* ARGestureControl.m in Sources */,
 				CAE0F89020E7320000957367 /* TYCyclePagerTransformLayout.m in Sources */,
-				CA7C9ADD20FCA66400F1143B /* ARViewController.m in Sources */,
 				CA98F38220DAB39700ECF795 /* NSDate+NSDateEx.m in Sources */,
 				CA12D98120D6A77000091F5A /* YALSunnyRefreshControl.m in Sources */,
 				CA98F38020DAB39700ECF795 /* HButton.m in Sources */,
 				CA12D97F20D6A77000091F5A /* MainController.m in Sources */,
+				CA410C8C210A13CF003A94D6 /* ARGestureControl.m in Sources */,
+				CA410C8F210A13D9003A94D6 /* ARAlertController.m in Sources */,
 				CA98F35120DAB30D00ECF795 /* BaseColCell.m in Sources */,
 				CA98F37F20DAB39700ECF795 /* UIButton+Button.m in Sources */,
 				CA7C9B0020FCAF4E00F1143B /* SlideNavigationController.m in Sources */,
@@ -1204,6 +1203,7 @@
 				CA7C9AFB20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				CA12D98020D6A77000091F5A /* ProductsController.m in Sources */,
 				CA3EB16A20DDF3F4004E2DFD /* InspirationStripTableViewCell.m in Sources */,
+				CA410C89210A13BF003A94D6 /* ARSCNViewControl.m in Sources */,
 				CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */,
 				CA763BEC20D97098007BBC24 /* NavVC.m in Sources */,
 				CA7C9AFC20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorScale.m in Sources */,
