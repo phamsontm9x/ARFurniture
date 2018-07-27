@@ -34,4 +34,8 @@
 }
 */
 
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
 @end

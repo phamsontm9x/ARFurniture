@@ -10,6 +10,9 @@
 #import "ARAlertController.h"
 #import "ARSCNViewControl.h"
 #import "ARGestureControl.h"
+#import "ARFurniture-Swift.h"
+#import "define.h"
+
 
 @interface ARViewController ()
 
@@ -25,7 +28,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     [self initialGetter];
     [self setupScene];
     [self.gestureControl setupGestureRecognizer];
@@ -50,6 +52,10 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 #pragma mark - Getters
@@ -142,7 +148,8 @@
 #pragma mark - Button Actions
 
 - (IBAction)rulerAction:(id)sender {
-    
+    MeasureArkit *vc = (MeasureArkit*)[[UIStoryboard storyboardWithName:@"Products" bundle:nil] instantiateViewControllerWithIdentifier:@"MeasureArkit"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 - (IBAction)dismissAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

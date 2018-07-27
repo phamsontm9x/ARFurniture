@@ -8,10 +8,11 @@
 
 #import "WelcomeVC.h"
 #import "MainController.h"
+#import "SMTransition.h"
 
+@interface WelcomeVC () <UIScrollViewDelegate, UIViewControllerTransitioningDelegate>
 
-
-@interface WelcomeVC () <UIScrollViewDelegate>
+@property (nonatomic, strong) SMTransition *transition;
 
 @property (nonatomic, weak) IBOutlet UIScrollView *scrContent;
 @property (nonatomic, weak) IBOutlet UIView *vWelcome0;
@@ -20,6 +21,12 @@
 @property (nonatomic, weak) IBOutlet UIImageView *imvWelcome;
 @property (nonatomic, weak) IBOutlet UIPageControl *pageView;
 @property (nonatomic) NSTimer *timer;
+@property (weak, nonatomic) IBOutlet UIImageView *imvWelcome0;
+@property (weak, nonatomic) IBOutlet UIImageView *imvWelcome1;
+@property (weak, nonatomic) IBOutlet UIImageView *imvWelcome2;
+@property (weak, nonatomic) IBOutlet UILabel *lblWelcome0;
+@property (weak, nonatomic) IBOutlet UILabel *lblWelcome1;
+@property (weak, nonatomic) IBOutlet UILabel *lblWelcome2;
 
 @property (nonatomic) NSInteger index;
 @property (nonatomic) BOOL isPause;
@@ -117,15 +124,28 @@
 
 
 - (IBAction)btnLogin:(id)sender {
+    _isPause = YES;
     MainController *vc = VCFromSB(MainController, SB_Main);
-    
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-        
+        self.imvWelcome0.transform = CGAffineTransformScale(CGAffineTransformIdentity, 4, 4);
+        self.imvWelcome1.transform = CGAffineTransformScale(CGAffineTransformIdentity, 4, 4);
+        self.imvWelcome2.transform = CGAffineTransformScale(CGAffineTransformIdentity, 4, 4);
+        self.lblWelcome0.alpha = 0;
+        self.lblWelcome1.alpha = 0;
+        self.lblWelcome2.alpha = 0;
+        self.imvWelcome.alpha = 0.5;
     } completion:^(BOOL finished) {
         [AppNav popToRootAndSwitchToViewController:vc withSlideOutAnimation:YES
-                                     andCompletion:nil];
+                                     andCompletion:^{
+                                         self.imvWelcome.alpha = 1;
+                                         self.imvWelcome0.transform = CGAffineTransformIdentity;
+                                         self.imvWelcome1.transform = CGAffineTransformIdentity;
+                                         self.imvWelcome2.transform = CGAffineTransformIdentity;
+                                         self.lblWelcome0.alpha = 1;
+                                         self.lblWelcome1.alpha = 1;
+                                         self.lblWelcome2.alpha = 1;
+                                     }];
     }];
-    
 }
 
 
@@ -156,6 +176,23 @@
         _isPause = NO;
     }
 }
+
+
+#pragma mark - UIViewControllerTransitioningDelegate
+
+- (nullable id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    
+    _transition = [[SMTransition alloc] init];
+    _transition.isPresent = YES;
+    
+    return _transition;
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    
+    return nil;
+}
+
 
 
 @end

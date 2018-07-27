@@ -25,6 +25,12 @@
 		CA3CEB5120E284C00017A990 /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3CEB5020E284C00017A990 /* Products.storyboard */; };
 		CA3CEB5320E284E60017A990 /* Inspirations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3CEB5220E284E60017A990 /* Inspirations.storyboard */; };
 		CA3CEB5520E285030017A990 /* Experts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3CEB5420E285030017A990 /* Experts.storyboard */; };
+		CA3DD58D210ACC780005C22D /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD589210ACC770005C22D /* SCNVector3.swift */; };
+		CA3DD58E210ACC780005C22D /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD58A210ACC770005C22D /* ARSCNView.swift */; };
+		CA3DD58F210ACC780005C22D /* MeasureArkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD58B210ACC780005C22D /* MeasureArkit.swift */; };
+		CA3DD590210ACC780005C22D /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD58C210ACC780005C22D /* Line.swift */; };
+		CA3DD597210AD5580005C22D /* SMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD593210AD5570005C22D /* SMButton.m */; };
+		CA3DD598210AD5580005C22D /* SMTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD596210AD5570005C22D /* SMTransition.m */; };
 		CA3EB16020DDED7A004E2DFD /* InspirationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB15E20DDED7A004E2DFD /* InspirationTableViewCell.m */; };
 		CA3EB16120DDED7A004E2DFD /* InspirationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3EB15F20DDED7A004E2DFD /* InspirationTableViewCell.xib */; };
 		CA3EB16520DDEDC4004E2DFD /* InspirationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB16420DDEDC4004E2DFD /* InspirationController.m */; };
@@ -124,6 +130,15 @@
 		CA3CEB5020E284C00017A990 /* Products.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Products.storyboard; sourceTree = "<group>"; };
 		CA3CEB5220E284E60017A990 /* Inspirations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inspirations.storyboard; sourceTree = "<group>"; };
 		CA3CEB5420E285030017A990 /* Experts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experts.storyboard; sourceTree = "<group>"; };
+		CA3DD586210AC9E80005C22D /* ARFurniture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARFurniture-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA3DD589210ACC770005C22D /* SCNVector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		CA3DD58A210ACC770005C22D /* ARSCNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
+		CA3DD58B210ACC780005C22D /* MeasureArkit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasureArkit.swift; sourceTree = "<group>"; };
+		CA3DD58C210ACC780005C22D /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		CA3DD592210AD5570005C22D /* SMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMButton.h; sourceTree = "<group>"; };
+		CA3DD593210AD5570005C22D /* SMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMButton.m; sourceTree = "<group>"; };
+		CA3DD595210AD5570005C22D /* SMTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTransition.h; sourceTree = "<group>"; };
+		CA3DD596210AD5570005C22D /* SMTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTransition.m; sourceTree = "<group>"; };
 		CA3EB15D20DDED7A004E2DFD /* InspirationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspirationTableViewCell.h; sourceTree = "<group>"; };
 		CA3EB15E20DDED7A004E2DFD /* InspirationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspirationTableViewCell.m; sourceTree = "<group>"; };
 		CA3EB15F20DDED7A004E2DFD /* InspirationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspirationTableViewCell.xib; sourceTree = "<group>"; };
@@ -255,6 +270,7 @@
 				CA12D95220D6A77000091F5A /* Classes */,
 				CA12D97120D6A77000091F5A /* main.m */,
 				CA12D97220D6A77000091F5A /* Resources */,
+				CA3DD586210AC9E80005C22D /* ARFurniture-Bridging-Header.h */,
 			);
 			path = ARFurniture;
 			sourceTree = "<group>";
@@ -309,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				CA504AFC21086F0A0021B8A9 /* WelcomeVC */,
+				CA3DD571210AC2D80005C22D /* MeasureArkit */,
 				CA7C9ACD20FCA60000F1143B /* ProductsArkit */,
 				CA98F34220DAB2CB00ECF795 /* MenuVC */,
 				CA763BE220D96B55007BBC24 /* BaseMenu */,
@@ -363,6 +380,8 @@
 		CA12D96B20D6A77000091F5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CA3DD591210AD5570005C22D /* SMButton */,
+				CA3DD594210AD5570005C22D /* SMTransition */,
 				CAE0F88920E7320000957367 /* TYCyclePagerView */,
 				CA12D96C20D6A77000091F5A /* YALSunnyRefreshControll */,
 			);
@@ -448,6 +467,35 @@
 				CA12EDC820D52D0E008939DF /* Info.plist */,
 			);
 			path = ARFurnitureUITests;
+			sourceTree = "<group>";
+		};
+		CA3DD571210AC2D80005C22D /* MeasureArkit */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DD58A210ACC770005C22D /* ARSCNView.swift */,
+				CA3DD58C210ACC780005C22D /* Line.swift */,
+				CA3DD589210ACC770005C22D /* SCNVector3.swift */,
+				CA3DD58B210ACC780005C22D /* MeasureArkit.swift */,
+			);
+			path = MeasureArkit;
+			sourceTree = "<group>";
+		};
+		CA3DD591210AD5570005C22D /* SMButton */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DD592210AD5570005C22D /* SMButton.h */,
+				CA3DD593210AD5570005C22D /* SMButton.m */,
+			);
+			path = SMButton;
+			sourceTree = "<group>";
+		};
+		CA3DD594210AD5570005C22D /* SMTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DD595210AD5570005C22D /* SMTransition.h */,
+				CA3DD596210AD5570005C22D /* SMTransition.m */,
+			);
+			path = SMTransition;
 			sourceTree = "<group>";
 		};
 		CA3EB15C20DDED25004E2DFD /* InspirationTableViewCell */ = {
@@ -1169,9 +1217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3DD58D210ACC780005C22D /* SCNVector3.swift in Sources */,
 				CA98F38520DAB39700ECF795 /* UIView+Util.m in Sources */,
 				CA98F34C20DAB2FA00ECF795 /* BaseTBV.m in Sources */,
 				CA12D97B20D6A77000091F5A /* AppDelegate.m in Sources */,
+				CA3DD58F210ACC780005C22D /* MeasureArkit.swift in Sources */,
 				CA98F35520DAB31700ECF795 /* BaseDto.m in Sources */,
 				CA7C9AFF20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				CA12D97C20D6A77000091F5A /* BaseVC.m in Sources */,
@@ -1183,6 +1233,7 @@
 				CA7C9AFE20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				CA98F38320DAB39700ECF795 /* NSTimeZone+Util.m in Sources */,
 				CA6F13DE2103F2A900C1F8A5 /* InspirationLagreTableViewCell.m in Sources */,
+				CA3DD598210AD5580005C22D /* SMTransition.m in Sources */,
 				CA3EB16020DDED7A004E2DFD /* InspirationTableViewCell.m in Sources */,
 				CA778A9B20DBEFD60043C071 /* ProductsCollectionViewCell.m in Sources */,
 				CA98F34520DAB2CB00ECF795 /* MenuVC.m in Sources */,
@@ -1196,6 +1247,7 @@
 				CA98F35120DAB30D00ECF795 /* BaseColCell.m in Sources */,
 				CA98F37F20DAB39700ECF795 /* UIButton+Button.m in Sources */,
 				CA7C9B0020FCAF4E00F1143B /* SlideNavigationController.m in Sources */,
+				CA3DD590210ACC780005C22D /* Line.swift in Sources */,
 				CA98F38120DAB39700ECF795 /* NSDateFormatter+Util.m in Sources */,
 				CA12D97D20D6A77000091F5A /* ExpertsController.m in Sources */,
 				CA12D98420D6A77000091F5A /* main.m in Sources */,
@@ -1207,11 +1259,13 @@
 				CA98F38420DAB39700ECF795 /* NSString+Util.m in Sources */,
 				CA763BEC20D97098007BBC24 /* NavVC.m in Sources */,
 				CA7C9AFC20FCAF4E00F1143B /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				CA3DD597210AD5580005C22D /* SMButton.m in Sources */,
 				CAC3C6792101B8D4001CCAFF /* DetailProductSectionCell.m in Sources */,
 				CA763BE520D96B60007BBC24 /* CAPSPageMenu.m in Sources */,
 				CA98F34D20DAB2FA00ECF795 /* BaseClv.m in Sources */,
 				CA763B1720D96832007BBC24 /* LoginController.m in Sources */,
 				CAC3C67C2101B8EE001CCAFF /* DetailProductOverviewCell.m in Sources */,
+				CA3DD58E210ACC780005C22D /* ARSCNView.swift in Sources */,
 				CA504AFF210873A10021B8A9 /* WelcomeVC.m in Sources */,
 				CAE0F89220E7320000957367 /* TYPageControl.m in Sources */,
 				CA7C9B0320FCAF7800F1143B /* BaseCell.m in Sources */,
@@ -1321,6 +1375,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFurniture/ARFurniture-Bridging-Header";
 			};
 			name = Debug;
 		};
@@ -1369,6 +1424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFurniture/ARFurniture-Bridging-Header";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1377,14 +1433,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88AA19E577C776CEBC080CF3 /* Pods-ARFurniture.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFurniture/ARFurniture-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1393,14 +1453,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86251809F3CB855E5E89DD32 /* Pods-ARFurniture.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurniture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThanhsonApp.ARFurniture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFurniture/ARFurniture-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1408,6 +1472,7 @@
 		CA12EDCF20D52D0E008939DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
@@ -1423,6 +1488,7 @@
 		CA12EDD020D52D0E008939DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
@@ -1439,6 +1505,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21BDA3B28157F8A89BA4C51A /* Pods-ARFurnitureUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurnitureUITests/Info.plist;
@@ -1454,6 +1521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C13144CFE5F8193B1CB76601 /* Pods-ARFurnitureUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BEENW56Y;
 				INFOPLIST_FILE = ARFurnitureUITests/Info.plist;

@@ -136,6 +136,12 @@
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
                         <outlet property="imvWelcome" destination="TT5-kU-o3d" id="beq-7j-q36"/>
+                        <outlet property="imvWelcome0" destination="rJa-3i-g3b" id="A7p-NQ-lm6"/>
+                        <outlet property="imvWelcome1" destination="iXv-Zs-Z2Y" id="LFF-bj-GpZ"/>
+                        <outlet property="imvWelcome2" destination="3xf-sX-kMl" id="hzN-Fp-ARC"/>
+                        <outlet property="lblWelcome0" destination="pTs-Wb-La8" id="M6C-Yd-IPf"/>
+                        <outlet property="lblWelcome1" destination="cbf-Ui-pTZ" id="a7W-gn-kd5"/>
+                        <outlet property="lblWelcome2" destination="kwa-gE-9jj" id="qPk-eH-md6"/>
                         <outlet property="pageView" destination="EqU-2b-sNR" id="dc5-vc-WSA"/>
                         <outlet property="scrContent" destination="TEF-XE-hTy" id="4oL-94-caW"/>
                         <outlet property="vWelcome0" destination="URU-1a-78Y" id="Za8-1g-iae"/>
